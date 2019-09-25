@@ -1,0 +1,331 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkManagerProtocol"
+- "NetworkManager"
+provides-nominal:
+- "11EventsVIPER22NetworkManagerProtocolP"
+- "11EventsVIPER14NetworkManagerC"
+provides-member:
+- ["11EventsVIPER22NetworkManagerProtocolP", ""]
+- ["11EventsVIPER14NetworkManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "=="
+- "AssignmentPrecedence"
+- "Decodable"
+- "DefaultValues"
+- "Error"
+- "EventDTO"
+- "JSONDecoder"
+- "NetworkError"
+- "NetworkManager"
+- "NetworkManagerProtocol"
+- "NetworkRequestParameters"
+- "NetworkServiceConfigurable"
+- "NetworkServiceConfigurator"
+- "Path"
+- "RequestBuilder"
+- "Result"
+- "String"
+- !private "StringLiteralType"
+- "URLRequest"
+- "URLSession"
+- !private "UnicodeScalarType"
+- "Void"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "reduce"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "reduce"]
+- ["11EventsVIPER13DefaultValuesO", "apiKey"]
+- ["11EventsVIPER13DefaultValuesO", "deinit"]
+- ["11EventsVIPER13DefaultValuesO", "rawValue"]
+- !private ["SD", "reduce"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "reduce"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "apiKey"]
+- ["SQ", "baseURL"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "generic"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "parsing"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "unknown"]
+- !private ["s5ErrorP", "generic"]
+- !private ["s5ErrorP", "parsing"]
+- !private ["s5ErrorP", "unknown"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "reduce"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "apiKey"]
+- ["SH", "baseURL"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "generic"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "parsing"]
+- ["SH", "rawValue"]
+- !private ["SH", "reduce"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["SH", "unknown"]
+- ["10Foundation11JSONDecoderC", "KeyDecodingStrategy"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONDecoderC", "keyDecodingStrategy"]
+- !private ["10Foundation11JSONDecoderC19KeyDecodingStrategyO", "convertFromSnakeCase"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["11EventsVIPER12NetworkErrorO", "deinit"]
+- !private ["11EventsVIPER12NetworkErrorO", "generic"]
+- !private ["11EventsVIPER12NetworkErrorO", "parsing"]
+- !private ["11EventsVIPER12NetworkErrorO", "unknown"]
+- ["11EventsVIPER14NetworkManagerC", "Decodable"]
+- ["11EventsVIPER14NetworkManagerC", "DefaultValues"]
+- ["11EventsVIPER14NetworkManagerC", "Error"]
+- ["11EventsVIPER14NetworkManagerC", "JSONDecoder"]
+- ["11EventsVIPER14NetworkManagerC", "NetworkError"]
+- ["11EventsVIPER14NetworkManagerC", "NetworkRequestParameters"]
+- ["11EventsVIPER14NetworkManagerC", "NetworkServiceConfigurable"]
+- ["11EventsVIPER14NetworkManagerC", "NetworkServiceConfigurator"]
+- ["11EventsVIPER14NetworkManagerC", "Path"]
+- ["11EventsVIPER14NetworkManagerC", "RequestBuilder"]
+- ["11EventsVIPER14NetworkManagerC", "Result"]
+- ["11EventsVIPER14NetworkManagerC", "String"]
+- ["11EventsVIPER14NetworkManagerC", "URLRequest"]
+- ["11EventsVIPER14NetworkManagerC", "URLSession"]
+- ["11EventsVIPER14NetworkManagerC", "Void"]
+- ["11EventsVIPER14NetworkManagerC", "builder"]
+- !private ["11EventsVIPER14NetworkManagerC", "builder.storage"]
+- ["11EventsVIPER14NetworkManagerC", "configuration"]
+- !private ["11EventsVIPER14NetworkManagerC", "defaultConfiguration"]
+- ["11EventsVIPER14NetworkManagerC", "deinit"]
+- !private ["11EventsVIPER14NetworkManagerC", "evaluate"]
+- !private ["11EventsVIPER14NetworkManagerC", "formatExtraParams"]
+- ["11EventsVIPER14NetworkManagerC", "getArrayRequest"]
+- ["11EventsVIPER14NetworkManagerC", "init"]
+- ["11EventsVIPER14NetworkManagerC", "loadEvents"]
+- ["11EventsVIPER14NetworkManagerC", "session"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "Decodable"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "DefaultValues"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "EventDTO"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "JSONDecoder"]
+- !private ["11EventsVIPER22NetworkManagerProtocolP", "NetworkError"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "NetworkRequestParameters"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "NetworkServiceConfigurable"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "NetworkServiceConfigurator"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "Path"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "RequestBuilder"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "Result"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "String"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "URLRequest"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "URLSession"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "Void"]
+- ["11EventsVIPER22NetworkManagerProtocolP", ""]
+- ["11EventsVIPER22NetworkManagerProtocolP", "builder"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "configuration"]
+- !private ["11EventsVIPER22NetworkManagerProtocolP", "defaultConfiguration"]
+- !private ["11EventsVIPER22NetworkManagerProtocolP", "evaluate"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "getArrayRequest"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "loadEvents"]
+- ["11EventsVIPER22NetworkManagerProtocolP", "session"]
+- ["11EventsVIPER24NetworkRequestParametersO", "deinit"]
+- !private ["11EventsVIPER24NetworkRequestParametersO", "rawValue"]
+- ["11EventsVIPER26NetworkServiceConfigurableP", "init"]
+- !private ["11EventsVIPER26NetworkServiceConfiguratorV", "deinit"]
+- ["11EventsVIPER26NetworkServiceConfiguratorV", "init"]
+- ["11EventsVIPER4PathO", "baseURL"]
+- ["11EventsVIPER4PathO", "deinit"]
+- ["11EventsVIPER4PathO", "rawValue"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["SY", "apiKey"]
+- ["SY", "baseURL"]
+- ["SY", "rawValue"]
+- !private ["11EventsVIPER16RequestBuildableP", "init"]
+- !private ["11EventsVIPER14RequestBuilderC", "init"]
+- !private ["11EventsVIPER6ResultO", "failure"]
+- !private ["11EventsVIPER6ResultO", "success"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "reduce"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "11EventsVIPER13DefaultValuesO"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONDecoderC19KeyDecodingStrategyO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "11EventsVIPER12NetworkErrorO"
+- "11EventsVIPER14NetworkManagerC"
+- "11EventsVIPER22NetworkManagerProtocolP"
+- "11EventsVIPER24NetworkRequestParametersO"
+- "11EventsVIPER26NetworkServiceConfigurableP"
+- "11EventsVIPER26NetworkServiceConfiguratorV"
+- "11EventsVIPER4PathO"
+- !private "So19NSProgressReportingP"
+- !private "Sm"
+- "SY"
+- !private "11EventsVIPER16RequestBuildableP"
+- !private "11EventsVIPER14RequestBuilderC"
+- !private "11EventsVIPER6ResultO"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6503d095ab33cf2393cb97e74c5e4976"

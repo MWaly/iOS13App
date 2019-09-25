@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "1d7ae5b43c29647f9b13fd672c225b73"
+build_time: [1552590964, 161594000]
+inputs:
+  "/Users/mwaly/Desktop/Apps/EventsVIPER/EventsVIPERTests/EventsVIPERTests.swift": [1552330613, 0]
+  "/Users/mwaly/Desktop/Apps/EventsVIPER/EventsVIPER/Common/NetworkingService/Tests/NetworkManagerTests.swift": [1552590962, 0]
+  "/Users/mwaly/Desktop/Apps/EventsVIPER/EventsVIPER/Common/NetworkingService/Tests/NetworkRequestTests.swift": [1552590788, 0]
+  "/Users/mwaly/Desktop/Apps/EventsVIPER/EventsVIPER/List/Presenter/ListPresenterTests.swift": [1552580296, 0]
+  "/Users/mwaly/Desktop/Apps/EventsVIPER/EventsVIPER/Common/NetworkingService/Tests/NetworkTestHelpers.swift": [1552590962, 0]
+  "/Users/mwaly/Desktop/Apps/EventsVIPER/EventsVIPER/List/DataManager/ListDataManagerTests.swift": [1552333799, 0]

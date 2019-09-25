@@ -1,0 +1,6 @@
+module Pods_EventsVIPERTests {
+  umbrella header "Pods-EventsVIPERTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

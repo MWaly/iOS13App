@@ -1,0 +1,108 @@
+▿ Optional<Result<Array<EventDTO>>>
+  ▿ some: Result<Array<EventDTO>>
+    ▿ success: (1 element)
+      ▿ value: 13 elements
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "RecSys New York City"
+          - id: "258524519"
+          - localDate: "2019-03-14"
+          - localTime: "18:30"
+          - name: "4th RecSys NYC Event - hosted by BuzzFeed"
+          - yesRsvpCount: 50
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "New York Flutter Developer Meetup"
+          - id: "257815257"
+          - localDate: "2019-03-20"
+          - localTime: "18:30"
+          - name: "March Meetup @ Google"
+          - yesRsvpCount: 138
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "NYC Tech Debates"
+          - id: "258306615"
+          - localDate: "2019-03-26"
+          - localTime: "18:15"
+          - name: "Progressive Web Apps vs Native Apps with IBM and AB InBev"
+          - yesRsvpCount: 50
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "The Forest Hills Book Group"
+          - id: "258876908"
+          - localDate: "2019-03-27"
+          - localTime: "19:00"
+          - name: "Disobedience discussion"
+          - yesRsvpCount: 15
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "Out Professionals"
+          - id: "259247985"
+          - localDate: "2019-03-28"
+          - localTime: "19:00"
+          - name: "HOW SAME-SEX LOVE SHAPED THE GREAT CITIES OF EUROPE"
+          - yesRsvpCount: 7
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "Naked Men\'s Yoga+Tantra with Brandon Anthony (NYC)"
+          - id: "258708900"
+          - localDate: "2019-03-31"
+          - localTime: "17:00"
+          - name: "Naked Men\'s Vinyasa Yoga NYC"
+          - yesRsvpCount: 4
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "Naked Men\'s Yoga+Tantra with Brandon Anthony (NYC)"
+          - id: "258709377"
+          - localDate: "2019-03-31"
+          - localTime: "19:30"
+          - name: "Naked Men\'s Tantra Group Massage NYC"
+          - yesRsvpCount: 4
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "🔥 SQL NYC, The NoSQL & NewSQL Database Big Data Meetup"
+          - id: "259567701"
+          - localDate: "2019-04-04"
+          - localTime: "18:30"
+          - name: "🐿️ Stream Processing Beyond Streaming with Apache Flink, by Co-Creator of Flink"
+          - yesRsvpCount: 86
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "Dev Bootcamp NYC Events and Workshops"
+          - id: "259596006"
+          - localDate: "2019-04-04"
+          - localTime: "18:35"
+          - name: "Apache Flink Co-Creator presenting: 🐿️ Stream Processing Beyond Streaming"
+          - yesRsvpCount: 5
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "Divorced and Separated Women 50+ in Morristown, NJ"
+          - id: "259470744"
+          - localDate: "2019-05-18"
+          - localTime: "18:00"
+          - name: "Morris Choral Society Spring Concert"
+          - yesRsvpCount: 9
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "Naked Men\'s Yoga+Tantra with Brandon Anthony (DC)"
+          - id: "259371972"
+          - localDate: "2019-07-26"
+          - localTime: "16:00"
+          - name: "Naked Men\'s Yoga+Tantra EROS Retreat in Fire Island Pines"
+          - yesRsvpCount: 3
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "AE - Explorations for Men (NY)"
+          - id: "258035637"
+          - localDate: "2019-10-05"
+          - localTime: "10:00"
+          - name: "WORKSHOPS - Authentic Eros Weekend"
+          - yesRsvpCount: 3
+        ▿ EventDTO
+          ▿ group: Group
+            - name: "Bacchanal Bandits | Ultimate Caribbean & Carnival Experience"
+          - id: "258412329"
+          - localDate: "2020-02-01"
+          - localTime: "07:00"
+          - name: "2020 Carnival Lineup Waiting List | Brasil, Berlin, Guyana + More"
+          - yesRsvpCount: 3

@@ -1,0 +1,3 @@
+target 'EventsVIPERTests' do
+  pod 'SnapshotTesting', '~> 1.2'
+end

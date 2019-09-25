@@ -1,0 +1,1151 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "kCFBooleanTrue"
+- "kCFBooleanFalse"
+- "PropertyListEncoder"
+- "PropertyListDecoder"
+provides-nominal:
+- "15SnapshotTesting19PropertyListEncoderC"
+- "15SnapshotTesting19PropertyListDecoderC"
+provides-member:
+- ["s13DecodingErrorO", ""]
+- ["15SnapshotTesting19PropertyListEncoderC", ""]
+- ["15SnapshotTesting19PropertyListDecoderC", ""]
+- ["s13DecodingErrorO", "_typeMismatch"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "!=="
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "=="
+- !private "==="
+- !private ">"
+- !private ">="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "CodingKey"
+- "CodingUserInfoKey"
+- "Data"
+- "Date"
+- "Decodable"
+- "Decoder"
+- "DecodingError"
+- "Double"
+- "Encodable"
+- "Encoder"
+- !private "EncodingError"
+- "Float"
+- !private "FloatLiteralType"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- !private "IntegerLiteralType"
+- "KeyedDecodingContainer"
+- "KeyedDecodingContainerProtocol"
+- "KeyedEncodingContainer"
+- "KeyedEncodingContainerProtocol"
+- !private "NSData"
+- !private "NSDate"
+- !private "NSDictionary"
+- "NSMutableArray"
+- "NSMutableDictionary"
+- !private "NSNull"
+- "NSNumber"
+- "NSObject"
+- "NSString"
+- "PropertyListDecoder"
+- "PropertyListEncoder"
+- "PropertyListSerialization"
+- "SingleValueDecodingContainer"
+- "SingleValueEncodingContainer"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- !private "UnicodeScalarType"
+- "UnkeyedDecodingContainer"
+- "UnkeyedEncodingContainer"
+- "_PlistDecoder"
+- "_PlistDecodingStorage"
+- "_PlistEncoder"
+- "_PlistEncodingStorage"
+- "_PlistKey"
+- !private "_PlistKeyedDecodingContainer"
+- !private "_PlistKeyedEncodingContainer"
+- !private "_PlistReferencingEncoder"
+- !private "_PlistUnkeyedDecodingContainer"
+- !private "_PlistUnkeyedEncodingContainer"
+- "_plistNull"
+- !private "_plistNullNSString"
+- !private "fatalError"
+- "kCFBooleanFalse"
+- "kCFBooleanTrue"
+- !private "precondition"
+- !private "preconditionFailure"
+- !private "type"
+- !private "||"
+- !private "~="
+depends-member:
+- ["15SnapshotTesting03AnyA17StringConvertibleP", "PropertyListFormat"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "add"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "count"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "data"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "doubleValue"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "floatValue"]
+- ["15SnapshotTesting03AnyA17StringConvertibleP", "init"]
+- ["15SnapshotTesting03AnyA17StringConvertibleP", "init"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "insert"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "int16Value"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "int32Value"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "int64Value"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "int8Value"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "intValue"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "propertyList"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "subscript"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "uint16Value"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "uint32Value"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "uint64Value"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "uint8Value"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "uintValue"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "last"]
+- !private ["Sa", "popLast"]
+- !private ["Sa", "removeLast"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["s13ArrayProtocolP", "last"]
+- !private ["s13ArrayProtocolP", "popLast"]
+- !private ["s13ArrayProtocolP", "removeLast"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "last"]
+- !private ["SK", "popLast"]
+- !private ["SK", "removeLast"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8CAActionP", "init"]
+- ["s7CVarArgP", "PropertyListFormat"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "doubleValue"]
+- !private ["s7CVarArgP", "floatValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "int16Value"]
+- !private ["s7CVarArgP", "int32Value"]
+- !private ["s7CVarArgP", "int64Value"]
+- !private ["s7CVarArgP", "int8Value"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "keys"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "popLast"]
+- !private ["s7CVarArgP", "propertyList"]
+- !private ["s7CVarArgP", "removeLast"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "uint16Value"]
+- !private ["s7CVarArgP", "uint32Value"]
+- !private ["s7CVarArgP", "uint64Value"]
+- !private ["s7CVarArgP", "uint8Value"]
+- !private ["s7CVarArgP", "uintValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_PlistKey"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "super"]
+- !private ["Sl", "append"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "keys"]
+- !private ["Sl", "last"]
+- !private ["Sl", "popLast"]
+- !private ["Sl", "removeLast"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s13DecodingErrorO7ContextV", "init"]
+- !private ["s13EncodingErrorO7ContextV", "init"]
+- ["s28CustomDebugStringConvertibleP", "PropertyListFormat"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_PlistKey"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- !private ["s28CustomDebugStringConvertibleP", "floatValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "int16Value"]
+- !private ["s28CustomDebugStringConvertibleP", "int32Value"]
+- !private ["s28CustomDebugStringConvertibleP", "int64Value"]
+- !private ["s28CustomDebugStringConvertibleP", "int8Value"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "keys"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "popLast"]
+- !private ["s28CustomDebugStringConvertibleP", "propertyList"]
+- !private ["s28CustomDebugStringConvertibleP", "removeLast"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "super"]
+- !private ["s28CustomDebugStringConvertibleP", "uint16Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uint32Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uint64Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uint8Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uintValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "add"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "keys"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "popLast"]
+- !private ["s17CustomReflectableP", "removeLast"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "PropertyListFormat"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_PlistKey"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- !private ["s23CustomStringConvertibleP", "floatValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "int16Value"]
+- !private ["s23CustomStringConvertibleP", "int32Value"]
+- !private ["s23CustomStringConvertibleP", "int64Value"]
+- !private ["s23CustomStringConvertibleP", "int8Value"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "keys"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "popLast"]
+- !private ["s23CustomStringConvertibleP", "propertyList"]
+- !private ["s23CustomStringConvertibleP", "removeLast"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "super"]
+- !private ["s23CustomStringConvertibleP", "uint16Value"]
+- !private ["s23CustomStringConvertibleP", "uint32Value"]
+- !private ["s23CustomStringConvertibleP", "uint64Value"]
+- !private ["s23CustomStringConvertibleP", "uint8Value"]
+- !private ["s23CustomStringConvertibleP", "uintValue"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "keys"]
+- !private ["Se", "last"]
+- !private ["Se", "popLast"]
+- !private ["Se", "removeLast"]
+- !private ["Se", "subscript"]
+- !private ["s7DecoderP", "Bool"]
+- !private ["s7DecoderP", "Data"]
+- !private ["s7DecoderP", "Date"]
+- !private ["s7DecoderP", "DecodingError"]
+- !private ["s7DecoderP", "Double"]
+- !private ["s7DecoderP", "Float"]
+- !private ["s7DecoderP", "Int"]
+- !private ["s7DecoderP", "Int16"]
+- !private ["s7DecoderP", "Int32"]
+- !private ["s7DecoderP", "Int64"]
+- !private ["s7DecoderP", "Int8"]
+- !private ["s7DecoderP", "KeyedDecodingContainer"]
+- !private ["s7DecoderP", "NSData"]
+- !private ["s7DecoderP", "NSDate"]
+- !private ["s7DecoderP", "NSNumber"]
+- !private ["s7DecoderP", "String"]
+- !private ["s7DecoderP", "UInt"]
+- !private ["s7DecoderP", "UInt16"]
+- !private ["s7DecoderP", "UInt32"]
+- !private ["s7DecoderP", "UInt64"]
+- !private ["s7DecoderP", "UInt8"]
+- !private ["s7DecoderP", "UnkeyedDecodingContainer"]
+- !private ["s7DecoderP", ""]
+- !private ["s7DecoderP", "_PlistDecodingStorage"]
+- !private ["s7DecoderP", "_PlistKeyedDecodingContainer"]
+- !private ["s7DecoderP", "_PlistUnkeyedDecodingContainer"]
+- !private ["s7DecoderP", "_plistNull"]
+- ["s7DecoderP", "codingPath"]
+- ["s7DecoderP", "container"]
+- ["s7DecoderP", "decode"]
+- ["s7DecoderP", "decodeNil"]
+- !private ["s7DecoderP", "expectNonNull"]
+- !private ["s7DecoderP", "init"]
+- !private ["s7DecoderP", "kCFBooleanFalse"]
+- !private ["s7DecoderP", "kCFBooleanTrue"]
+- !private ["s7DecoderP", "options"]
+- ["s7DecoderP", "singleValueContainer"]
+- !private ["s7DecoderP", "storage"]
+- !private ["s7DecoderP", "unbox"]
+- ["s7DecoderP", "unkeyedContainer"]
+- ["s7DecoderP", "userInfo"]
+- ["s13DecodingErrorO", "CodingKey"]
+- !private ["s13DecodingErrorO", "Context"]
+- ["s13DecodingErrorO", "DecodingError"]
+- ["s13DecodingErrorO", "_typeMismatch"]
+- !private ["s13DecodingErrorO", "dataCorrupted"]
+- !private ["s13DecodingErrorO", "keyNotFound"]
+- !private ["s13DecodingErrorO", "type"]
+- !private ["s13DecodingErrorO", "typeMismatch"]
+- !private ["s13DecodingErrorO", "valueNotFound"]
+- !private ["SD", "keys"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "encode"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "keys"]
+- !private ["SE", "last"]
+- !private ["SE", "popLast"]
+- !private ["SE", "removeLast"]
+- !private ["SE", "subscript"]
+- !private ["s7EncoderP", "Data"]
+- !private ["s7EncoderP", "Date"]
+- !private ["s7EncoderP", "KeyedEncodingContainer"]
+- !private ["s7EncoderP", "NSData"]
+- !private ["s7EncoderP", "NSDate"]
+- !private ["s7EncoderP", "NSDictionary"]
+- !private ["s7EncoderP", "NSNumber"]
+- !private ["s7EncoderP", "NSString"]
+- !private ["s7EncoderP", ""]
+- !private ["s7EncoderP", "_PlistEncodingStorage"]
+- !private ["s7EncoderP", "_PlistKey"]
+- !private ["s7EncoderP", "_PlistKeyedEncodingContainer"]
+- !private ["s7EncoderP", "_PlistUnkeyedEncodingContainer"]
+- !private ["s7EncoderP", "_plistNullNSString"]
+- !private ["s7EncoderP", "assertCanEncodeNewValue"]
+- !private ["s7EncoderP", "box"]
+- !private ["s7EncoderP", "box_"]
+- !private ["s7EncoderP", "canEncodeNewValue"]
+- ["s7EncoderP", "codingPath"]
+- ["s7EncoderP", "container"]
+- ["s7EncoderP", "encode"]
+- ["s7EncoderP", "encodeNil"]
+- !private ["s7EncoderP", "encoder"]
+- !private ["s7EncoderP", "fatalError"]
+- !private ["s7EncoderP", "init"]
+- !private ["s7EncoderP", "options"]
+- !private ["s7EncoderP", "precondition"]
+- !private ["s7EncoderP", "preconditionFailure"]
+- !private ["s7EncoderP", "reference"]
+- ["s7EncoderP", "singleValueContainer"]
+- !private ["s7EncoderP", "storage"]
+- ["s7EncoderP", "unkeyedContainer"]
+- ["s7EncoderP", "userInfo"]
+- !private ["s13EncodingErrorO", "Context"]
+- !private ["s13EncodingErrorO", "invalidValue"]
+- ["SQ", "PropertyListFormat"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "add"]
+- !private ["SQ", "append"]
+- ["SQ", "binary"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "doubleValue"]
+- !private ["SQ", "floatValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "int16Value"]
+- !private ["SQ", "int32Value"]
+- !private ["SQ", "int64Value"]
+- !private ["SQ", "int8Value"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "keys"]
+- !private ["SQ", "last"]
+- !private ["SQ", "popLast"]
+- !private ["SQ", "propertyList"]
+- !private ["SQ", "removeLast"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "uint16Value"]
+- !private ["SQ", "uint32Value"]
+- !private ["SQ", "uint64Value"]
+- !private ["SQ", "uint8Value"]
+- !private ["SQ", "uintValue"]
+- !private ["s5ErrorP", "Context"]
+- !private ["s5ErrorP", "_typeMismatch"]
+- !private ["s5ErrorP", "dataCorrupted"]
+- !private ["s5ErrorP", "invalidValue"]
+- !private ["s5ErrorP", "keyNotFound"]
+- !private ["s5ErrorP", "type"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["s5ErrorP", "valueNotFound"]
+- !private ["s25ExpressibleByArrayLiteralP", "add"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "popLast"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeLast"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "floatValue"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int16Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int32Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int64Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int8Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uint16Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uint32Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uint64Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uint8Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uintValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "floatValue"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "int16Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "int32Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "int64Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "int8Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint16Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint32Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint64Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint8Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uintValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "floatValue"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int16Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int32Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int64Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int8Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint16Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint32Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint64Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint8Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uintValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "PropertyListFormat"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "add"]
+- !private ["SH", "append"]
+- ["SH", "binary"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "doubleValue"]
+- !private ["SH", "floatValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "int16Value"]
+- !private ["SH", "int32Value"]
+- !private ["SH", "int64Value"]
+- !private ["SH", "int8Value"]
+- !private ["SH", "intValue"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "keys"]
+- !private ["SH", "last"]
+- !private ["SH", "popLast"]
+- !private ["SH", "propertyList"]
+- !private ["SH", "removeLast"]
+- !private ["SH", "subscript"]
+- !private ["SH", "uint16Value"]
+- !private ["SH", "uint32Value"]
+- !private ["SH", "uint64Value"]
+- !private ["SH", "uint8Value"]
+- !private ["SH", "uintValue"]
+- !private ["s22KeyedDecodingContainerV", "init"]
+- !private ["s30KeyedDecodingContainerProtocolP", "Bool"]
+- !private ["s30KeyedDecodingContainerProtocolP", "DecodingError"]
+- !private ["s30KeyedDecodingContainerProtocolP", "Double"]
+- !private ["s30KeyedDecodingContainerProtocolP", "Float"]
+- !private ["s30KeyedDecodingContainerProtocolP", "Int"]
+- !private ["s30KeyedDecodingContainerProtocolP", "Int16"]
+- !private ["s30KeyedDecodingContainerProtocolP", "Int32"]
+- !private ["s30KeyedDecodingContainerProtocolP", "Int64"]
+- !private ["s30KeyedDecodingContainerProtocolP", "Int8"]
+- ["s30KeyedDecodingContainerProtocolP", "Key"]
+- !private ["s30KeyedDecodingContainerProtocolP", "KeyedDecodingContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "NSNull"]
+- !private ["s30KeyedDecodingContainerProtocolP", "String"]
+- !private ["s30KeyedDecodingContainerProtocolP", "UInt"]
+- !private ["s30KeyedDecodingContainerProtocolP", "UInt16"]
+- !private ["s30KeyedDecodingContainerProtocolP", "UInt32"]
+- !private ["s30KeyedDecodingContainerProtocolP", "UInt64"]
+- !private ["s30KeyedDecodingContainerProtocolP", "UInt8"]
+- !private ["s30KeyedDecodingContainerProtocolP", "UnkeyedDecodingContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", ""]
+- !private ["s30KeyedDecodingContainerProtocolP", "_PlistDecoder"]
+- !private ["s30KeyedDecodingContainerProtocolP", "_PlistKey"]
+- !private ["s30KeyedDecodingContainerProtocolP", "_PlistKeyedDecodingContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "_PlistUnkeyedDecodingContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "_plistNull"]
+- !private ["s30KeyedDecodingContainerProtocolP", "_superDecoder"]
+- ["s30KeyedDecodingContainerProtocolP", "allKeys"]
+- ["s30KeyedDecodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedDecodingContainerProtocolP", "container"]
+- ["s30KeyedDecodingContainerProtocolP", "contains"]
+- ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decoder"]
+- !private ["s30KeyedDecodingContainerProtocolP", "init"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedUnkeyedContainer"]
+- ["s30KeyedDecodingContainerProtocolP", "superDecoder"]
+- !private ["s22KeyedEncodingContainerV", "init"]
+- ["s30KeyedEncodingContainerProtocolP", "Key"]
+- !private ["s30KeyedEncodingContainerProtocolP", "KeyedEncodingContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "NSMutableArray"]
+- !private ["s30KeyedEncodingContainerProtocolP", "NSMutableDictionary"]
+- !private ["s30KeyedEncodingContainerProtocolP", ""]
+- !private ["s30KeyedEncodingContainerProtocolP", "_PlistKey"]
+- !private ["s30KeyedEncodingContainerProtocolP", "_PlistKeyedEncodingContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "_PlistReferencingEncoder"]
+- !private ["s30KeyedEncodingContainerProtocolP", "_PlistUnkeyedEncodingContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "_plistNullNSString"]
+- ["s30KeyedEncodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedEncodingContainerProtocolP", "container"]
+- ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["s30KeyedEncodingContainerProtocolP", "encodeConditional"]
+- ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["s30KeyedEncodingContainerProtocolP", "encodeNil"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encoder"]
+- !private ["s30KeyedEncodingContainerProtocolP", "init"]
+- ["s30KeyedEncodingContainerProtocolP", "nestedContainer"]
+- ["s30KeyedEncodingContainerProtocolP", "nestedUnkeyedContainer"]
+- ["s30KeyedEncodingContainerProtocolP", "superEncoder"]
+- !private ["SD4KeysV", "compactMap"]
+- !private ["10Foundation14LocalizedErrorP", "Context"]
+- !private ["10Foundation14LocalizedErrorP", "_typeMismatch"]
+- !private ["10Foundation14LocalizedErrorP", "dataCorrupted"]
+- !private ["10Foundation14LocalizedErrorP", "invalidValue"]
+- !private ["10Foundation14LocalizedErrorP", "keyNotFound"]
+- !private ["10Foundation14LocalizedErrorP", "type"]
+- !private ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- !private ["10Foundation14LocalizedErrorP", "valueNotFound"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "last"]
+- !private ["SM", "popLast"]
+- !private ["SM", "removeLast"]
+- !private ["SM", "subscript"]
+- !private ["So7NSArrayC", "add"]
+- !private ["So7NSArrayC", "count"]
+- !private ["So7NSArrayC", "init"]
+- !private ["So7NSArrayC", "insert"]
+- !private ["So8NSCodingP", "add"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "floatValue"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "insert"]
+- !private ["So8NSCodingP", "int16Value"]
+- !private ["So8NSCodingP", "int32Value"]
+- !private ["So8NSCodingP", "int64Value"]
+- !private ["So8NSCodingP", "int8Value"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So8NSCodingP", "uint16Value"]
+- !private ["So8NSCodingP", "uint32Value"]
+- !private ["So8NSCodingP", "uint64Value"]
+- !private ["So8NSCodingP", "uint8Value"]
+- !private ["So8NSCodingP", "uintValue"]
+- !private ["So9NSCopyingP", "add"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "floatValue"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "insert"]
+- !private ["So9NSCopyingP", "int16Value"]
+- !private ["So9NSCopyingP", "int32Value"]
+- !private ["So9NSCopyingP", "int64Value"]
+- !private ["So9NSCopyingP", "int8Value"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So9NSCopyingP", "uint16Value"]
+- !private ["So9NSCopyingP", "uint32Value"]
+- !private ["So9NSCopyingP", "uint64Value"]
+- !private ["So9NSCopyingP", "uint8Value"]
+- !private ["So9NSCopyingP", "uintValue"]
+- !private ["So12NSDictionaryC", "init"]
+- !private ["So12NSDictionaryC", "subscript"]
+- !private ["So17NSFastEnumerationP", "add"]
+- !private ["So17NSFastEnumerationP", "count"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "insert"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So14NSMutableArrayC", "add"]
+- !private ["So14NSMutableArrayC", "count"]
+- !private ["So14NSMutableArrayC", "init"]
+- !private ["So14NSMutableArrayC", "insert"]
+- !private ["So16NSMutableCopyingP", "add"]
+- !private ["So16NSMutableCopyingP", "count"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "insert"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So19NSMutableDictionaryC", "init"]
+- !private ["So19NSMutableDictionaryC", "subscript"]
+- !private ["So6NSNullC", "init"]
+- !private ["So8NSNumberC", "doubleValue"]
+- !private ["So8NSNumberC", "floatValue"]
+- ["So8NSNumberC", "init"]
+- !private ["So8NSNumberC", "int16Value"]
+- !private ["So8NSNumberC", "int32Value"]
+- !private ["So8NSNumberC", "int64Value"]
+- !private ["So8NSNumberC", "int8Value"]
+- !private ["So8NSNumberC", "intValue"]
+- !private ["So8NSNumberC", "uint16Value"]
+- !private ["So8NSNumberC", "uint32Value"]
+- !private ["So8NSNumberC", "uint64Value"]
+- !private ["So8NSNumberC", "uint8Value"]
+- !private ["So8NSNumberC", "uintValue"]
+- ["So8NSObjectC", "PropertyListFormat"]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "doubleValue"]
+- !private ["So8NSObjectC", "floatValue"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "insert"]
+- !private ["So8NSObjectC", "int16Value"]
+- !private ["So8NSObjectC", "int32Value"]
+- !private ["So8NSObjectC", "int64Value"]
+- !private ["So8NSObjectC", "int8Value"]
+- !private ["So8NSObjectC", "intValue"]
+- !private ["So8NSObjectC", "propertyList"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "uint16Value"]
+- !private ["So8NSObjectC", "uint32Value"]
+- !private ["So8NSObjectC", "uint64Value"]
+- !private ["So8NSObjectC", "uint8Value"]
+- !private ["So8NSObjectC", "uintValue"]
+- ["So8NSObjectP", "PropertyListFormat"]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "doubleValue"]
+- !private ["So8NSObjectP", "floatValue"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "insert"]
+- !private ["So8NSObjectP", "int16Value"]
+- !private ["So8NSObjectP", "int32Value"]
+- !private ["So8NSObjectP", "int64Value"]
+- !private ["So8NSObjectP", "int8Value"]
+- !private ["So8NSObjectP", "intValue"]
+- !private ["So8NSObjectP", "propertyList"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So8NSObjectP", "uint16Value"]
+- !private ["So8NSObjectP", "uint32Value"]
+- !private ["So8NSObjectP", "uint64Value"]
+- !private ["So8NSObjectP", "uint8Value"]
+- !private ["So8NSObjectP", "uintValue"]
+- !private ["So14NSSecureCodingP", "add"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "floatValue"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "insert"]
+- !private ["So14NSSecureCodingP", "int16Value"]
+- !private ["So14NSSecureCodingP", "int32Value"]
+- !private ["So14NSSecureCodingP", "int64Value"]
+- !private ["So14NSSecureCodingP", "int8Value"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So14NSSecureCodingP", "uint16Value"]
+- !private ["So14NSSecureCodingP", "uint32Value"]
+- !private ["So14NSSecureCodingP", "uint64Value"]
+- !private ["So14NSSecureCodingP", "uint8Value"]
+- !private ["So14NSSecureCodingP", "uintValue"]
+- ["So8NSStringC", "init"]
+- !private ["So7NSValueC", "doubleValue"]
+- !private ["So7NSValueC", "floatValue"]
+- ["So7NSValueC", "init"]
+- !private ["So7NSValueC", "int16Value"]
+- !private ["So7NSValueC", "int32Value"]
+- !private ["So7NSValueC", "int64Value"]
+- !private ["So7NSValueC", "int8Value"]
+- !private ["So7NSValueC", "intValue"]
+- !private ["So7NSValueC", "uint16Value"]
+- !private ["So7NSValueC", "uint32Value"]
+- !private ["So7NSValueC", "uint64Value"]
+- !private ["So7NSValueC", "uint8Value"]
+- !private ["So7NSValueC", "uintValue"]
+- ["15SnapshotTesting19PropertyListDecoderC", "CodingUserInfoKey"]
+- ["15SnapshotTesting19PropertyListDecoderC", "Data"]
+- ["15SnapshotTesting19PropertyListDecoderC", "Decodable"]
+- !private ["15SnapshotTesting19PropertyListDecoderC", "DecodingError"]
+- ["15SnapshotTesting19PropertyListDecoderC", "PropertyListSerialization"]
+- ["15SnapshotTesting19PropertyListDecoderC", "_Options"]
+- !private ["15SnapshotTesting19PropertyListDecoderC", "_PlistDecoder"]
+- ["15SnapshotTesting19PropertyListDecoderC", "decode"]
+- ["15SnapshotTesting19PropertyListDecoderC", "init"]
+- !private ["15SnapshotTesting19PropertyListDecoderC", "options"]
+- ["15SnapshotTesting19PropertyListDecoderC", "userInfo"]
+- ["15SnapshotTesting19PropertyListEncoderC", "CodingUserInfoKey"]
+- ["15SnapshotTesting19PropertyListEncoderC", "Data"]
+- ["15SnapshotTesting19PropertyListEncoderC", "Encodable"]
+- !private ["15SnapshotTesting19PropertyListEncoderC", "EncodingError"]
+- !private ["15SnapshotTesting19PropertyListEncoderC", "NSDate"]
+- !private ["15SnapshotTesting19PropertyListEncoderC", "NSNumber"]
+- !private ["15SnapshotTesting19PropertyListEncoderC", "NSString"]
+- ["15SnapshotTesting19PropertyListEncoderC", "PropertyListSerialization"]
+- ["15SnapshotTesting19PropertyListEncoderC", "_Options"]
+- !private ["15SnapshotTesting19PropertyListEncoderC", "_PlistEncoder"]
+- ["15SnapshotTesting19PropertyListEncoderC", "encode"]
+- ["15SnapshotTesting19PropertyListEncoderC", "encodeToTopLevelContainer"]
+- ["15SnapshotTesting19PropertyListEncoderC", "init"]
+- !private ["15SnapshotTesting19PropertyListEncoderC", "options"]
+- ["15SnapshotTesting19PropertyListEncoderC", "outputFormat"]
+- ["15SnapshotTesting19PropertyListEncoderC", "userInfo"]
+- ["So20NSPropertyListFormatV", "binary"]
+- ["So27NSPropertyListSerializationC", "PropertyListFormat"]
+- !private ["So27NSPropertyListSerializationC", "data"]
+- !private ["So27NSPropertyListSerializationC", "propertyList"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "last"]
+- !private ["Sk", "popLast"]
+- !private ["Sk", "removeLast"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "last"]
+- !private ["Sm", "popLast"]
+- !private ["Sm", "removeLast"]
+- !private ["Sm", "subscript"]
+- ["SY", "binary"]
+- !private ["ST", "add"]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "insert"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "keys"]
+- !private ["ST", "last"]
+- !private ["ST", "popLast"]
+- !private ["ST", "removeLast"]
+- !private ["ST", "subscript"]
+- !private ["s28SingleValueDecodingContainerP", "Bool"]
+- !private ["s28SingleValueDecodingContainerP", "Data"]
+- !private ["s28SingleValueDecodingContainerP", "Date"]
+- !private ["s28SingleValueDecodingContainerP", "DecodingError"]
+- !private ["s28SingleValueDecodingContainerP", "Double"]
+- !private ["s28SingleValueDecodingContainerP", "Float"]
+- !private ["s28SingleValueDecodingContainerP", "Int"]
+- !private ["s28SingleValueDecodingContainerP", "Int16"]
+- !private ["s28SingleValueDecodingContainerP", "Int32"]
+- !private ["s28SingleValueDecodingContainerP", "Int64"]
+- !private ["s28SingleValueDecodingContainerP", "Int8"]
+- !private ["s28SingleValueDecodingContainerP", "KeyedDecodingContainer"]
+- !private ["s28SingleValueDecodingContainerP", "NSData"]
+- !private ["s28SingleValueDecodingContainerP", "NSDate"]
+- !private ["s28SingleValueDecodingContainerP", "NSNumber"]
+- !private ["s28SingleValueDecodingContainerP", "String"]
+- !private ["s28SingleValueDecodingContainerP", "UInt"]
+- !private ["s28SingleValueDecodingContainerP", "UInt16"]
+- !private ["s28SingleValueDecodingContainerP", "UInt32"]
+- !private ["s28SingleValueDecodingContainerP", "UInt64"]
+- !private ["s28SingleValueDecodingContainerP", "UInt8"]
+- !private ["s28SingleValueDecodingContainerP", "UnkeyedDecodingContainer"]
+- !private ["s28SingleValueDecodingContainerP", ""]
+- !private ["s28SingleValueDecodingContainerP", "_PlistDecodingStorage"]
+- !private ["s28SingleValueDecodingContainerP", "_PlistKeyedDecodingContainer"]
+- !private ["s28SingleValueDecodingContainerP", "_PlistUnkeyedDecodingContainer"]
+- !private ["s28SingleValueDecodingContainerP", "_plistNull"]
+- ["s28SingleValueDecodingContainerP", "codingPath"]
+- ["s28SingleValueDecodingContainerP", "container"]
+- ["s28SingleValueDecodingContainerP", "decode"]
+- ["s28SingleValueDecodingContainerP", "decodeNil"]
+- !private ["s28SingleValueDecodingContainerP", "expectNonNull"]
+- !private ["s28SingleValueDecodingContainerP", "init"]
+- !private ["s28SingleValueDecodingContainerP", "kCFBooleanFalse"]
+- !private ["s28SingleValueDecodingContainerP", "kCFBooleanTrue"]
+- !private ["s28SingleValueDecodingContainerP", "options"]
+- ["s28SingleValueDecodingContainerP", "singleValueContainer"]
+- !private ["s28SingleValueDecodingContainerP", "storage"]
+- !private ["s28SingleValueDecodingContainerP", "unbox"]
+- ["s28SingleValueDecodingContainerP", "unkeyedContainer"]
+- ["s28SingleValueDecodingContainerP", "userInfo"]
+- !private ["s28SingleValueEncodingContainerP", "Data"]
+- !private ["s28SingleValueEncodingContainerP", "Date"]
+- !private ["s28SingleValueEncodingContainerP", "KeyedEncodingContainer"]
+- !private ["s28SingleValueEncodingContainerP", "NSData"]
+- !private ["s28SingleValueEncodingContainerP", "NSDate"]
+- !private ["s28SingleValueEncodingContainerP", "NSDictionary"]
+- !private ["s28SingleValueEncodingContainerP", "NSNumber"]
+- !private ["s28SingleValueEncodingContainerP", "NSString"]
+- !private ["s28SingleValueEncodingContainerP", ""]
+- !private ["s28SingleValueEncodingContainerP", "_PlistEncodingStorage"]
+- !private ["s28SingleValueEncodingContainerP", "_PlistKey"]
+- !private ["s28SingleValueEncodingContainerP", "_PlistKeyedEncodingContainer"]
+- !private ["s28SingleValueEncodingContainerP", "_PlistUnkeyedEncodingContainer"]
+- !private ["s28SingleValueEncodingContainerP", "_plistNullNSString"]
+- !private ["s28SingleValueEncodingContainerP", "assertCanEncodeNewValue"]
+- !private ["s28SingleValueEncodingContainerP", "box"]
+- !private ["s28SingleValueEncodingContainerP", "box_"]
+- !private ["s28SingleValueEncodingContainerP", "canEncodeNewValue"]
+- ["s28SingleValueEncodingContainerP", "codingPath"]
+- ["s28SingleValueEncodingContainerP", "container"]
+- ["s28SingleValueEncodingContainerP", "encode"]
+- ["s28SingleValueEncodingContainerP", "encodeNil"]
+- !private ["s28SingleValueEncodingContainerP", "encoder"]
+- !private ["s28SingleValueEncodingContainerP", "fatalError"]
+- !private ["s28SingleValueEncodingContainerP", "init"]
+- !private ["s28SingleValueEncodingContainerP", "options"]
+- !private ["s28SingleValueEncodingContainerP", "precondition"]
+- !private ["s28SingleValueEncodingContainerP", "preconditionFailure"]
+- !private ["s28SingleValueEncodingContainerP", "reference"]
+- ["s28SingleValueEncodingContainerP", "singleValueContainer"]
+- !private ["s28SingleValueEncodingContainerP", "storage"]
+- ["s28SingleValueEncodingContainerP", "unkeyedContainer"]
+- ["s28SingleValueEncodingContainerP", "userInfo"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s24UnkeyedDecodingContainerP", "Bool"]
+- !private ["s24UnkeyedDecodingContainerP", "Decoder"]
+- !private ["s24UnkeyedDecodingContainerP", "DecodingError"]
+- !private ["s24UnkeyedDecodingContainerP", "Double"]
+- !private ["s24UnkeyedDecodingContainerP", "Float"]
+- !private ["s24UnkeyedDecodingContainerP", "Int"]
+- !private ["s24UnkeyedDecodingContainerP", "Int16"]
+- !private ["s24UnkeyedDecodingContainerP", "Int32"]
+- !private ["s24UnkeyedDecodingContainerP", "Int64"]
+- !private ["s24UnkeyedDecodingContainerP", "Int8"]
+- !private ["s24UnkeyedDecodingContainerP", "KeyedDecodingContainer"]
+- !private ["s24UnkeyedDecodingContainerP", "String"]
+- !private ["s24UnkeyedDecodingContainerP", "UInt"]
+- !private ["s24UnkeyedDecodingContainerP", "UInt16"]
+- !private ["s24UnkeyedDecodingContainerP", "UInt32"]
+- !private ["s24UnkeyedDecodingContainerP", "UInt64"]
+- !private ["s24UnkeyedDecodingContainerP", "UInt8"]
+- !private ["s24UnkeyedDecodingContainerP", "UnkeyedDecodingContainer"]
+- !private ["s24UnkeyedDecodingContainerP", ""]
+- !private ["s24UnkeyedDecodingContainerP", "_PlistDecoder"]
+- !private ["s24UnkeyedDecodingContainerP", "_PlistKey"]
+- !private ["s24UnkeyedDecodingContainerP", "_PlistKeyedDecodingContainer"]
+- !private ["s24UnkeyedDecodingContainerP", "_PlistUnkeyedDecodingContainer"]
+- ["s24UnkeyedDecodingContainerP", "codingPath"]
+- !private ["s24UnkeyedDecodingContainerP", "container"]
+- ["s24UnkeyedDecodingContainerP", "count"]
+- ["s24UnkeyedDecodingContainerP", "currentIndex"]
+- ["s24UnkeyedDecodingContainerP", "decode"]
+- ["s24UnkeyedDecodingContainerP", "decodeIfPresent"]
+- ["s24UnkeyedDecodingContainerP", "decodeNil"]
+- !private ["s24UnkeyedDecodingContainerP", "decoder"]
+- !private ["s24UnkeyedDecodingContainerP", "init"]
+- ["s24UnkeyedDecodingContainerP", "isAtEnd"]
+- ["s24UnkeyedDecodingContainerP", "nestedContainer"]
+- ["s24UnkeyedDecodingContainerP", "nestedUnkeyedContainer"]
+- ["s24UnkeyedDecodingContainerP", "superDecoder"]
+- !private ["s24UnkeyedEncodingContainerP", "KeyedEncodingContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "NSMutableArray"]
+- !private ["s24UnkeyedEncodingContainerP", "NSMutableDictionary"]
+- !private ["s24UnkeyedEncodingContainerP", ""]
+- !private ["s24UnkeyedEncodingContainerP", "_PlistKey"]
+- !private ["s24UnkeyedEncodingContainerP", "_PlistKeyedEncodingContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "_PlistReferencingEncoder"]
+- !private ["s24UnkeyedEncodingContainerP", "_PlistUnkeyedEncodingContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "_plistNullNSString"]
+- ["s24UnkeyedEncodingContainerP", "codingPath"]
+- !private ["s24UnkeyedEncodingContainerP", "container"]
+- ["s24UnkeyedEncodingContainerP", "count"]
+- ["s24UnkeyedEncodingContainerP", "encode"]
+- ["s24UnkeyedEncodingContainerP", "encodeConditional"]
+- ["s24UnkeyedEncodingContainerP", "encodeNil"]
+- !private ["s24UnkeyedEncodingContainerP", "encoder"]
+- !private ["s24UnkeyedEncodingContainerP", "init"]
+- ["s24UnkeyedEncodingContainerP", "nestedContainer"]
+- ["s24UnkeyedEncodingContainerP", "nestedUnkeyedContainer"]
+- ["s24UnkeyedEncodingContainerP", "superEncoder"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "popLast"]
+- !private ["s24_DestructorSafeContainerP", "removeLast"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "add"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "floatValue"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int16Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int32Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int64Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int8Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keys"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "popLast"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeLast"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uint16Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uint32Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uint64Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uint8Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uintValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "PropertyListFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "floatValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int16Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int32Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int64Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int8Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "propertyList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uint16Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uint32Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uint64Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uint8Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uintValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "keys"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "popLast"]
+- !private ["s21_ObjectiveCBridgeableP", "removeLast"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "15SnapshotTesting03AnyA17StringConvertibleP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- !private "So8CAActionP"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "Sl"
+- "SL"
+- !private "s13DecodingErrorO7ContextV"
+- !private "s13EncodingErrorO7ContextV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "s7DecoderP"
+- "s13DecodingErrorO"
+- !private "SD"
+- "SE"
+- "s7EncoderP"
+- !private "s13EncodingErrorO"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- "s30KeyedEncodingContainerProtocolP"
+- !private "SD4KeysV"
+- !private "10Foundation14LocalizedErrorP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So7NSArrayC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So12NSDictionaryC"
+- !private "So17NSFastEnumerationP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "So14NSMutableArrayC"
+- "So16NSMutableCopyingP"
+- !private "So19NSMutableDictionaryC"
+- !private "So6NSNullC"
+- "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "So7NSValueC"
+- "15SnapshotTesting19PropertyListDecoderC"
+- "15SnapshotTesting19PropertyListEncoderC"
+- "So20NSPropertyListFormatV"
+- "So27NSPropertyListSerializationC"
+- !private "Sk"
+- "Sm"
+- "SY"
+- "ST"
+- "s28SingleValueDecodingContainerP"
+- "s28SingleValueEncodingContainerP"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s24UnkeyedDecodingContainerP"
+- "s24UnkeyedEncodingContainerP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/mwaly/Downloads/EventsVIPER/Pods/Headers/Public/SnapshotTesting/SnapshotTesting-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/mwaly/Downloads/EventsVIPER/Pods/Headers/Public/SnapshotTesting/SnapshotTesting.modulemap"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Pods/Headers/Public/SnapshotTesting/SnapshotTesting.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "012d844a604f52fc4b4faeb0c08abe65"

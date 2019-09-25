@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9A13D240CA61CB9C965A82E /* libPods-EventsVIPERTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0597155D1C3EDADDF351E393 /* libPods-EventsVIPERTests.a */; };
+		CAA54200223C096C00283D7B /* LoadEventsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA541FF223C096C00283D7B /* LoadEventsService.swift */; };
+		CAFADEDD2236E6F100A88159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADEDC2236E6F100A88159 /* AppDelegate.swift */; };
+		CAFADEE22236E6F200A88159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFADEE02236E6F200A88159 /* Main.storyboard */; };
+		CAFADEE42236E6F400A88159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFADEE32236E6F400A88159 /* Assets.xcassets */; };
+		CAFADEE72236E6F400A88159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFADEE52236E6F400A88159 /* LaunchScreen.storyboard */; };
+		CAFADEF22236E6F500A88159 /* EventsVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADEF12236E6F500A88159 /* EventsVIPERTests.swift */; };
+		CAFADEFD2236E6F500A88159 /* EventsVIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADEFC2236E6F500A88159 /* EventsVIPERUITests.swift */; };
+		CAFADF142236F10600A88159 /* ListDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF132236F10600A88159 /* ListDataManager.swift */; };
+		CAFADF172236F14000A88159 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF162236F14000A88159 /* ListViewController.swift */; };
+		CAFADF192236F15700A88159 /* ListDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF182236F15700A88159 /* ListDatasource.swift */; };
+		CAFADF1B2236F16A00A88159 /* ListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF1A2236F16A00A88159 /* ListItemTableViewCell.swift */; };
+		CAFADF1D2236F26100A88159 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF1C2236F26100A88159 /* ListPresenter.swift */; };
+		CAFADF1F2236F27100A88159 /* ListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF1E2236F27100A88159 /* ListInteractorTests.swift */; };
+		CAFADF212236F27D00A88159 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF202236F27D00A88159 /* ListRouter.swift */; };
+		CAFADF252236F2CB00A88159 /* ListInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF242236F2CB00A88159 /* ListInterfaces.swift */; };
+		CAFADF282236F2E500A88159 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF272236F2E500A88159 /* NetworkManager.swift */; };
+		CAFADF2A2236F2F500A88159 /* NetworkServiceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF292236F2F500A88159 /* NetworkServiceConfigurator.swift */; };
+		CAFADF2C2236F30100A88159 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF2B2236F30100A88159 /* RequestBuilder.swift */; };
+		CAFADF2F2236F36B00A88159 /* ListDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF2D2236F36800A88159 /* ListDataManagerTests.swift */; };
+		CAFADF312236F38F00A88159 /* ListManagerMockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFADF302236F38F00A88159 /* ListManagerMockResponse.json */; };
+		CAFADF332237057000A88159 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF322237057000A88159 /* ListInteractor.swift */; };
+		CAFADF3522383B7D00A88159 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF3422383B7D00A88159 /* NetworkManagerTests.swift */; };
+		CAFADF372238412C00A88159 /* LocalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF362238412C00A88159 /* LocalStore.swift */; };
+		CAFADF3B2238454300A88159 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF3A2238454300A88159 /* NetworkHelper.swift */; };
+		CAFADF3D2238502300A88159 /* EventDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF3C2238502300A88159 /* EventDTO.swift */; };
+		CAFADF412239C72600A88159 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF402239C72600A88159 /* Event.swift */; };
+		CAFADF43223AB64900A88159 /* ListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF42223AB64900A88159 /* ListPresenterTests.swift */; };
+		CAFADF44223AC2AD00A88159 /* ListManagerMockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFADF302236F38F00A88159 /* ListManagerMockResponse.json */; };
+		CAFADF48223ACD5600A88159 /* NetworkTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF47223ACD5600A88159 /* NetworkTestHelpers.swift */; };
+		CAFADF4A223ACD8700A88159 /* ListingResponseCamelCased.json in Resources */ = {isa = PBXBuildFile; fileRef = CAFADF49223ACD8700A88159 /* ListingResponseCamelCased.json */; };
+		CAFADF51223ADE4400A88159 /* NetworkRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF50223ADE4400A88159 /* NetworkRequestTests.swift */; };
+		CAFADF52223AE04B00A88159 /* LocalStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFADF382238415600A88159 /* LocalStoreTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFADEEE2236E6F500A88159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFADED12236E6F100A88159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFADED82236E6F100A88159;
+			remoteInfo = EventsVIPER;
+		};
+		CAFADEF92236E6F500A88159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFADED12236E6F100A88159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFADED82236E6F100A88159;
+			remoteInfo = EventsVIPER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0597155D1C3EDADDF351E393 /* libPods-EventsVIPERTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EventsVIPERTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21119AC2D23BA4733F3E9F17 /* Pods-EventsVIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsVIPERTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventsVIPERTests/Pods-EventsVIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
+		586A22F6BDA986BF3E7210DF /* Pods-EventsVIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsVIPERTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventsVIPERTests/Pods-EventsVIPERTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAA541FF223C096C00283D7B /* LoadEventsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadEventsService.swift; sourceTree = "<group>"; };
+		CAFADED92236E6F100A88159 /* EventsVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFADEDC2236E6F100A88159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAFADEE12236E6F200A88159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFADEE32236E6F400A88159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFADEE62236E6F400A88159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFADEE82236E6F400A88159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFADEED2236E6F500A88159 /* EventsVIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventsVIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFADEF12236E6F500A88159 /* EventsVIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsVIPERTests.swift; sourceTree = "<group>"; };
+		CAFADEF32236E6F500A88159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFADEF82236E6F500A88159 /* EventsVIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventsVIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFADEFC2236E6F500A88159 /* EventsVIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsVIPERUITests.swift; sourceTree = "<group>"; };
+		CAFADEFE2236E6F500A88159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFADF132236F10600A88159 /* ListDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataManager.swift; sourceTree = "<group>"; };
+		CAFADF162236F14000A88159 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CAFADF182236F15700A88159 /* ListDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDatasource.swift; sourceTree = "<group>"; };
+		CAFADF1A2236F16A00A88159 /* ListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemTableViewCell.swift; sourceTree = "<group>"; };
+		CAFADF1C2236F26100A88159 /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		CAFADF1E2236F27100A88159 /* ListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractorTests.swift; sourceTree = "<group>"; };
+		CAFADF202236F27D00A88159 /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		CAFADF242236F2CB00A88159 /* ListInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInterfaces.swift; sourceTree = "<group>"; };
+		CAFADF272236F2E500A88159 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CAFADF292236F2F500A88159 /* NetworkServiceConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceConfigurator.swift; sourceTree = "<group>"; };
+		CAFADF2B2236F30100A88159 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		CAFADF2D2236F36800A88159 /* ListDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataManagerTests.swift; sourceTree = "<group>"; };
+		CAFADF302236F38F00A88159 /* ListManagerMockResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListManagerMockResponse.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		CAFADF322237057000A88159 /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		CAFADF3422383B7D00A88159 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		CAFADF362238412C00A88159 /* LocalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStore.swift; sourceTree = "<group>"; };
+		CAFADF382238415600A88159 /* LocalStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStoreTests.swift; sourceTree = "<group>"; };
+		CAFADF3A2238454300A88159 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		CAFADF3C2238502300A88159 /* EventDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDTO.swift; sourceTree = "<group>"; };
+		CAFADF402239C72600A88159 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		CAFADF42223AB64900A88159 /* ListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenterTests.swift; sourceTree = "<group>"; };
+		CAFADF47223ACD5600A88159 /* NetworkTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestHelpers.swift; sourceTree = "<group>"; };
+		CAFADF49223ACD8700A88159 /* ListingResponseCamelCased.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListingResponseCamelCased.json; sourceTree = "<group>"; };
+		CAFADF50223ADE4400A88159 /* NetworkRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFADED62236E6F100A88159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFADEEA2236E6F500A88159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A13D240CA61CB9C965A82E /* libPods-EventsVIPERTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFADEF52236E6F500A88159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A36DDB99B64FA64AD8AEB4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21119AC2D23BA4733F3E9F17 /* Pods-EventsVIPERTests.debug.xcconfig */,
+				586A22F6BDA986BF3E7210DF /* Pods-EventsVIPERTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA29B6516E13F27BDA808141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0597155D1C3EDADDF351E393 /* libPods-EventsVIPERTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAFADED02236E6F100A88159 = {
+			isa = PBXGroup;
+			children = (
+				CAFADEDB2236E6F100A88159 /* EventsVIPER */,
+				CAFADEF02236E6F500A88159 /* EventsVIPERTests */,
+				CAFADEFB2236E6F500A88159 /* EventsVIPERUITests */,
+				CAFADEDA2236E6F100A88159 /* Products */,
+				4A36DDB99B64FA64AD8AEB4B /* Pods */,
+				BA29B6516E13F27BDA808141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFADEDA2236E6F100A88159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADED92236E6F100A88159 /* EventsVIPER.app */,
+				CAFADEED2236E6F500A88159 /* EventsVIPERTests.xctest */,
+				CAFADEF82236E6F500A88159 /* EventsVIPERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFADEDB2236E6F100A88159 /* EventsVIPER */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF122236F0E800A88159 /* Common */,
+				CAFADF0A2236F07B00A88159 /* List */,
+				CAFADEDC2236E6F100A88159 /* AppDelegate.swift */,
+				CAFADEE02236E6F200A88159 /* Main.storyboard */,
+				CAFADEE32236E6F400A88159 /* Assets.xcassets */,
+				CAFADEE52236E6F400A88159 /* LaunchScreen.storyboard */,
+				CAFADEE82236E6F400A88159 /* Info.plist */,
+			);
+			path = EventsVIPER;
+			sourceTree = "<group>";
+		};
+		CAFADEF02236E6F500A88159 /* EventsVIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADEF12236E6F500A88159 /* EventsVIPERTests.swift */,
+				CAFADEF32236E6F500A88159 /* Info.plist */,
+			);
+			path = EventsVIPERTests;
+			sourceTree = "<group>";
+		};
+		CAFADEFB2236E6F500A88159 /* EventsVIPERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADEFC2236E6F500A88159 /* EventsVIPERUITests.swift */,
+				CAFADEFE2236E6F500A88159 /* Info.plist */,
+			);
+			path = EventsVIPERUITests;
+			sourceTree = "<group>";
+		};
+		CAFADF0A2236F07B00A88159 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF0B2236F08600A88159 /* DataManager */,
+				CAFADF102236F0A600A88159 /* Entity */,
+				CAFADF0F2236F0A200A88159 /* Router */,
+				CAFADF0E2236F09B00A88159 /* Interactor */,
+				CAFADF0D2236F09600A88159 /* Presenter */,
+				CAFADF0C2236F08F00A88159 /* View */,
+				CAFADF242236F2CB00A88159 /* ListInterfaces.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CAFADF0B2236F08600A88159 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF132236F10600A88159 /* ListDataManager.swift */,
+				CAFADF2D2236F36800A88159 /* ListDataManagerTests.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		CAFADF0C2236F08F00A88159 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF152236F12000A88159 /* ListViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAFADF0D2236F09600A88159 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF1C2236F26100A88159 /* ListPresenter.swift */,
+				CAFADF42223AB64900A88159 /* ListPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CAFADF0E2236F09B00A88159 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF1E2236F27100A88159 /* ListInteractorTests.swift */,
+				CAFADF322237057000A88159 /* ListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CAFADF0F2236F0A200A88159 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF202236F27D00A88159 /* ListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CAFADF102236F0A600A88159 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF54223AE33500A88159 /* AppModels */,
+				CAFADF53223AE33000A88159 /* DTO */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CAFADF122236F0E800A88159 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF3E22385F5900A88159 /* LocalStore */,
+				CAFADF262236F2D400A88159 /* NetworkingService */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CAFADF152236F12000A88159 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF162236F14000A88159 /* ListViewController.swift */,
+				CAFADF182236F15700A88159 /* ListDatasource.swift */,
+				CAFADF1A2236F16A00A88159 /* ListItemTableViewCell.swift */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		CAFADF262236F2D400A88159 /* NetworkingService */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF46223ACD3900A88159 /* Source */,
+				CAFADF45223ACD3200A88159 /* Tests */,
+			);
+			path = NetworkingService;
+			sourceTree = "<group>";
+		};
+		CAFADF3E22385F5900A88159 /* LocalStore */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF362238412C00A88159 /* LocalStore.swift */,
+				CAFADF382238415600A88159 /* LocalStoreTests.swift */,
+			);
+			path = LocalStore;
+			sourceTree = "<group>";
+		};
+		CAFADF45223ACD3200A88159 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF4F223ADC1000A88159 /* Mocks */,
+				CAFADF3422383B7D00A88159 /* NetworkManagerTests.swift */,
+				CAFADF50223ADE4400A88159 /* NetworkRequestTests.swift */,
+				CAFADF47223ACD5600A88159 /* NetworkTestHelpers.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		CAFADF46223ACD3900A88159 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF272236F2E500A88159 /* NetworkManager.swift */,
+				CAFADF292236F2F500A88159 /* NetworkServiceConfigurator.swift */,
+				CAFADF2B2236F30100A88159 /* RequestBuilder.swift */,
+				CAFADF3A2238454300A88159 /* NetworkHelper.swift */,
+				CAA541FF223C096C00283D7B /* LoadEventsService.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CAFADF4F223ADC1000A88159 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF302236F38F00A88159 /* ListManagerMockResponse.json */,
+				CAFADF49223ACD8700A88159 /* ListingResponseCamelCased.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		CAFADF53223AE33000A88159 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF3C2238502300A88159 /* EventDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		CAFADF54223AE33500A88159 /* AppModels */ = {
+			isa = PBXGroup;
+			children = (
+				CAFADF402239C72600A88159 /* Event.swift */,
+			);
+			path = AppModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFADED82236E6F100A88159 /* EventsVIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFADF012236E6F500A88159 /* Build configuration list for PBXNativeTarget "EventsVIPER" */;
+			buildPhases = (
+				CAFADED52236E6F100A88159 /* Sources */,
+				CAFADED62236E6F100A88159 /* Frameworks */,
+				CAFADED72236E6F100A88159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventsVIPER;
+			productName = EventsVIPER;
+			productReference = CAFADED92236E6F100A88159 /* EventsVIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFADEEC2236E6F500A88159 /* EventsVIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFADF042236E6F500A88159 /* Build configuration list for PBXNativeTarget "EventsVIPERTests" */;
+			buildPhases = (
+				EA152C89EDAB4EB1DD30E263 /* [CP] Check Pods Manifest.lock */,
+				CAFADEE92236E6F500A88159 /* Sources */,
+				CAFADEEA2236E6F500A88159 /* Frameworks */,
+				CAFADEEB2236E6F500A88159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFADEEF2236E6F500A88159 /* PBXTargetDependency */,
+			);
+			name = EventsVIPERTests;
+			productName = EventsVIPERTests;
+			productReference = CAFADEED2236E6F500A88159 /* EventsVIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFADEF72236E6F500A88159 /* EventsVIPERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFADF072236E6F500A88159 /* Build configuration list for PBXNativeTarget "EventsVIPERUITests" */;
+			buildPhases = (
+				CAFADEF42236E6F500A88159 /* Sources */,
+				CAFADEF52236E6F500A88159 /* Frameworks */,
+				CAFADEF62236E6F500A88159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFADEFA2236E6F500A88159 /* PBXTargetDependency */,
+			);
+			name = EventsVIPERUITests;
+			productName = EventsVIPERUITests;
+			productReference = CAFADEF82236E6F500A88159 /* EventsVIPERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFADED12236E6F100A88159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = iostldr;
+				TargetAttributes = {
+					CAFADED82236E6F100A88159 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CAFADEEC2236E6F500A88159 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CAFADED82236E6F100A88159;
+					};
+					CAFADEF72236E6F500A88159 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CAFADED82236E6F100A88159;
+					};
+				};
+			};
+			buildConfigurationList = CAFADED42236E6F100A88159 /* Build configuration list for PBXProject "EventsVIPER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFADED02236E6F100A88159;
+			productRefGroup = CAFADEDA2236E6F100A88159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFADED82236E6F100A88159 /* EventsVIPER */,
+				CAFADEEC2236E6F500A88159 /* EventsVIPERTests */,
+				CAFADEF72236E6F500A88159 /* EventsVIPERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFADED72236E6F100A88159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFADF44223AC2AD00A88159 /* ListManagerMockResponse.json in Resources */,
+				CAFADEE72236E6F400A88159 /* LaunchScreen.storyboard in Resources */,
+				CAFADEE42236E6F400A88159 /* Assets.xcassets in Resources */,
+				CAFADEE22236E6F200A88159 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFADEEB2236E6F500A88159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFADF312236F38F00A88159 /* ListManagerMockResponse.json in Resources */,
+				CAFADF4A223ACD8700A88159 /* ListingResponseCamelCased.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFADEF62236E6F500A88159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA152C89EDAB4EB1DD30E263 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EventsVIPERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFADED52236E6F100A88159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFADF332237057000A88159 /* ListInteractor.swift in Sources */,
+				CAFADF212236F27D00A88159 /* ListRouter.swift in Sources */,
+				CAFADF3D2238502300A88159 /* EventDTO.swift in Sources */,
+				CAFADF1D2236F26100A88159 /* ListPresenter.swift in Sources */,
+				CAFADF142236F10600A88159 /* ListDataManager.swift in Sources */,
+				CAFADF252236F2CB00A88159 /* ListInterfaces.swift in Sources */,
+				CAFADF372238412C00A88159 /* LocalStore.swift in Sources */,
+				CAFADF1B2236F16A00A88159 /* ListItemTableViewCell.swift in Sources */,
+				CAA54200223C096C00283D7B /* LoadEventsService.swift in Sources */,
+				CAFADF3B2238454300A88159 /* NetworkHelper.swift in Sources */,
+				CAFADF2C2236F30100A88159 /* RequestBuilder.swift in Sources */,
+				CAFADF412239C72600A88159 /* Event.swift in Sources */,
+				CAFADF2A2236F2F500A88159 /* NetworkServiceConfigurator.swift in Sources */,
+				CAFADF192236F15700A88159 /* ListDatasource.swift in Sources */,
+				CAFADF172236F14000A88159 /* ListViewController.swift in Sources */,
+				CAFADF1F2236F27100A88159 /* ListInteractorTests.swift in Sources */,
+				CAFADF282236F2E500A88159 /* NetworkManager.swift in Sources */,
+				CAFADEDD2236E6F100A88159 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFADEE92236E6F500A88159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFADEF22236E6F500A88159 /* EventsVIPERTests.swift in Sources */,
+				CAFADF3522383B7D00A88159 /* NetworkManagerTests.swift in Sources */,
+				CAFADF51223ADE4400A88159 /* NetworkRequestTests.swift in Sources */,
+				CAFADF43223AB64900A88159 /* ListPresenterTests.swift in Sources */,
+				CAFADF52223AE04B00A88159 /* LocalStoreTests.swift in Sources */,
+				CAFADF48223ACD5600A88159 /* NetworkTestHelpers.swift in Sources */,
+				CAFADF2F2236F36B00A88159 /* ListDataManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFADEF42236E6F500A88159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFADEFD2236E6F500A88159 /* EventsVIPERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFADEEF2236E6F500A88159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFADED82236E6F100A88159 /* EventsVIPER */;
+			targetProxy = CAFADEEE2236E6F500A88159 /* PBXContainerItemProxy */;
+		};
+		CAFADEFA2236E6F500A88159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFADED82236E6F100A88159 /* EventsVIPER */;
+			targetProxy = CAFADEF92236E6F500A88159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFADEE02236E6F200A88159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFADEE12236E6F200A88159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFADEE52236E6F400A88159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFADEE62236E6F400A88159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFADEFF2236E6F500A88159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAFADF002236E6F500A88159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFADF022236E6F500A88159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EventsVIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = waly.EventsVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFADF032236E6F500A88159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EventsVIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = waly.EventsVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAFADF052236E6F500A88159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21119AC2D23BA4733F3E9F17 /* Pods-EventsVIPERTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EventsVIPERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = waly.EventsVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventsVIPER.app/EventsVIPER";
+			};
+			name = Debug;
+		};
+		CAFADF062236E6F500A88159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586A22F6BDA986BF3E7210DF /* Pods-EventsVIPERTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EventsVIPERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = waly.EventsVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventsVIPER.app/EventsVIPER";
+			};
+			name = Release;
+		};
+		CAFADF082236E6F500A88159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EventsVIPERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = waly.EventsVIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EventsVIPER;
+			};
+			name = Debug;
+		};
+		CAFADF092236E6F500A88159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EventsVIPERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = waly.EventsVIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EventsVIPER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFADED42236E6F100A88159 /* Build configuration list for PBXProject "EventsVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFADEFF2236E6F500A88159 /* Debug */,
+				CAFADF002236E6F500A88159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFADF012236E6F500A88159 /* Build configuration list for PBXNativeTarget "EventsVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFADF022236E6F500A88159 /* Debug */,
+				CAFADF032236E6F500A88159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFADF042236E6F500A88159 /* Build configuration list for PBXNativeTarget "EventsVIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFADF052236E6F500A88159 /* Debug */,
+				CAFADF062236E6F500A88159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFADF072236E6F500A88159 /* Build configuration list for PBXNativeTarget "EventsVIPERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFADF082236E6F500A88159 /* Debug */,
+				CAFADF092236E6F500A88159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFADED12236E6F100A88159 /* Project object */;
+}

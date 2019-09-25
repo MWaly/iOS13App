@@ -1,0 +1,133 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ListPresenter"
+provides-nominal:
+- "11EventsVIPER13ListPresenterC"
+provides-member:
+- ["11EventsVIPER13ListPresenterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Error"
+- "Event"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "ListInteractorInput"
+- "ListInteractorOutput"
+- "ListPresenter"
+- "ListPresenterInput"
+- "ListPresenterOutput"
+- "ListRouter"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["SK", "count"]
+- !private ["s7CVarArgP", "count"]
+- !private ["Sl", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["Se", "count"]
+- !private ["SE", "count"]
+- !private ["SQ", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["SH", "count"]
+- !private ["11EventsVIPER19ListInteractorInputP", "loadEvents"]
+- !private ["11EventsVIPER19ListInteractorInputP", "output"]
+- ["11EventsVIPER20ListInteractorOutputP", ""]
+- ["11EventsVIPER20ListInteractorOutputP", "errorOccured"]
+- ["11EventsVIPER20ListInteractorOutputP", "interactor"]
+- ["11EventsVIPER20ListInteractorOutputP", "loadEvents"]
+- ["11EventsVIPER20ListInteractorOutputP", "loadedEvents"]
+- ["11EventsVIPER20ListInteractorOutputP", "numberOfEvents"]
+- ["11EventsVIPER20ListInteractorOutputP", "presenterOutput"]
+- ["11EventsVIPER20ListInteractorOutputP", "router"]
+- ["11EventsVIPER20ListInteractorOutputP", "toggleFavorite"]
+- ["11EventsVIPER13ListPresenterC", "Error"]
+- ["11EventsVIPER13ListPresenterC", "Event"]
+- ["11EventsVIPER13ListPresenterC", "Int"]
+- ["11EventsVIPER13ListPresenterC", "ListInteractorInput"]
+- ["11EventsVIPER13ListPresenterC", "ListPresenterOutput"]
+- ["11EventsVIPER13ListPresenterC", "ListRouter"]
+- ["11EventsVIPER13ListPresenterC", "deinit"]
+- ["11EventsVIPER13ListPresenterC", "errorOccured"]
+- ["11EventsVIPER13ListPresenterC", "init"]
+- ["11EventsVIPER13ListPresenterC", "interactor"]
+- ["11EventsVIPER13ListPresenterC", "loadEvents"]
+- ["11EventsVIPER13ListPresenterC", "loadedEvents"]
+- ["11EventsVIPER13ListPresenterC", "numberOfEvents"]
+- ["11EventsVIPER13ListPresenterC", "presenterOutput"]
+- ["11EventsVIPER13ListPresenterC", "router"]
+- ["11EventsVIPER13ListPresenterC", "toggleFavorite"]
+- ["11EventsVIPER18ListPresenterInputP", ""]
+- ["11EventsVIPER18ListPresenterInputP", "errorOccured"]
+- ["11EventsVIPER18ListPresenterInputP", "interactor"]
+- ["11EventsVIPER18ListPresenterInputP", "loadEvents"]
+- ["11EventsVIPER18ListPresenterInputP", "loadedEvents"]
+- ["11EventsVIPER18ListPresenterInputP", "numberOfEvents"]
+- ["11EventsVIPER18ListPresenterInputP", "presenterOutput"]
+- ["11EventsVIPER18ListPresenterInputP", "router"]
+- ["11EventsVIPER18ListPresenterInputP", "toggleFavorite"]
+- !private ["11EventsVIPER19ListPresenterOutputP", "dataLoaded"]
+- !private ["11EventsVIPER19ListPresenterOutputP", "events"]
+- !private ["SM", "count"]
+- !private ["Sk", "count"]
+- !private ["Sm", "count"]
+- !private ["ST", "count"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "11EventsVIPER19ListInteractorInputP"
+- "11EventsVIPER20ListInteractorOutputP"
+- "11EventsVIPER13ListPresenterC"
+- "11EventsVIPER18ListPresenterInputP"
+- !private "11EventsVIPER19ListPresenterOutputP"
+- !private "SM"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f0f936886c5d31ec56e5429e2427d780"

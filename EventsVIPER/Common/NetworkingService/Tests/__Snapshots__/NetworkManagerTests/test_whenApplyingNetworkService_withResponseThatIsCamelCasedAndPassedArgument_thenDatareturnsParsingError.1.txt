@@ -1,0 +1,4 @@
+▿ Optional<Result<Array<EventDTO>>>
+  ▿ some: Result<Array<EventDTO>>
+    ▿ failure: (1 element)
+      - error: NetworkError.parsing

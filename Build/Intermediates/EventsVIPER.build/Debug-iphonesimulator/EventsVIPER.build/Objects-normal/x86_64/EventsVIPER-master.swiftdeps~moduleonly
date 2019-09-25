@@ -1,0 +1,22 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "4003c86604dc4a997764310abf49a02e"
+build_time: [1552691266, 789752000]
+inputs:
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/Interactor/ListInteractor.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/Router/ListRouter.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/Entity/DTO/EventDTO.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/Presenter/ListPresenter.swift": !dirty [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/DataManager/ListDataManager.swift": !dirty [1552691230, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/ListInterfaces.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/Common/LocalStore/LocalStore.swift": [1552690779, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/View/ListViewController/ListItemTableViewCell.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/Common/NetworkingService/Source/LoadEventsService.swift": !dirty [1552667301, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/Common/NetworkingService/Source/NetworkHelper.swift": !dirty [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/Common/NetworkingService/Source/RequestBuilder.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/Entity/AppModels/Event.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/Common/NetworkingService/Source/NetworkServiceConfigurator.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/View/ListViewController/ListDatasource.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/View/ListViewController/ListViewController.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/List/Interactor/ListInteractorTests.swift": [1552576924, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/Common/NetworkingService/Source/NetworkManager.swift": !dirty [1552667301, 0]
+  "/Users/mwaly/Downloads/EventsVIPER/EventsVIPER/AppDelegate.swift": !dirty [1552576924, 0]

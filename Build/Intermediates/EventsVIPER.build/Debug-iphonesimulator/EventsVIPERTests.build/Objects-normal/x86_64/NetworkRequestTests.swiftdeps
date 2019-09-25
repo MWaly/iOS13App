@@ -1,0 +1,455 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkRequestTests"
+provides-nominal:
+- "16EventsVIPERTests19NetworkRequestTestsC"
+provides-member:
+- ["16EventsVIPERTests19NetworkRequestTestsC", ""]
+provides-dynamic-lookup:
+- "test_givenDefaultValues_whenPassingToGetRequestBuilder_thenRequestinitilaizedCorrectly"
+- "test_whenSettingUpAuthenticatedGetRequest_withPassingCustomAPIKey_thenAPIKeyGetsInjectedCorrectly"
+- "test_whenSettingUpAuthenticatedGetRequest_withPassingNilAPIKey_thenRequestNotCreated"
+depends-top-level:
+- !private "??"
+- !private "BooleanLiteralType"
+- !private "DefaultValues"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NetworkRequestTests"
+- !private "NetworkServiceConfigurator"
+- !private "Path"
+- "RequestBuilder"
+- !private "StringLiteralType"
+- "URLRequest"
+- !private "XCTAssertNil"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+- !private "assertSnapshot"
+- !private "defaultNetworkConfiguration"
+depends-member:
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "DefaultValues"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "NetworkServiceConfigurator"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "Path"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "RequestBuilder"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "XCTAssertNil"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "XCTAssertTrue"]
+- ["15SnapshotTesting03AnyA17StringConvertibleP", ""]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "absoluteString"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "assertSnapshot"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "contains"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "defaultNetworkConfiguration"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "init"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "init"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "mockUrlRequest"]
+- !private ["SK", "contains"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "DefaultValues"]
+- !private ["s7CVarArgP", "NetworkServiceConfigurator"]
+- !private ["s7CVarArgP", "Path"]
+- !private ["s7CVarArgP", "RequestBuilder"]
+- !private ["s7CVarArgP", "XCTAssertNil"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "assertSnapshot"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "defaultNetworkConfiguration"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mockUrlRequest"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "contains"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DefaultValues"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkServiceConfigurator"]
+- !private ["s28CustomDebugStringConvertibleP", "Path"]
+- !private ["s28CustomDebugStringConvertibleP", "RequestBuilder"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertNil"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "assertSnapshot"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultNetworkConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mockUrlRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s29CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "url"]
+- !private ["s23CustomStringConvertibleP", "DefaultValues"]
+- !private ["s23CustomStringConvertibleP", "NetworkServiceConfigurator"]
+- !private ["s23CustomStringConvertibleP", "Path"]
+- !private ["s23CustomStringConvertibleP", "RequestBuilder"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertNil"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "assertSnapshot"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "defaultNetworkConfiguration"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mockUrlRequest"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "contains"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["11EventsVIPER13DefaultValuesO", "apiKey"]
+- !private ["11EventsVIPER13DefaultValuesO", "rawValue"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "contains"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "DefaultValues"]
+- !private ["SQ", "NetworkServiceConfigurator"]
+- !private ["SQ", "Path"]
+- !private ["SQ", "RequestBuilder"]
+- !private ["SQ", "XCTAssertNil"]
+- !private ["SQ", "XCTAssertTrue"]
+- ["SQ", ""]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "apiKey"]
+- !private ["SQ", "assertSnapshot"]
+- !private ["SQ", "baseURL"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "defaultNetworkConfiguration"]
+- !private ["SQ", "findEvents"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "mockUrlRequest"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "url"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "DefaultValues"]
+- !private ["SH", "NetworkServiceConfigurator"]
+- !private ["SH", "Path"]
+- !private ["SH", "RequestBuilder"]
+- !private ["SH", "XCTAssertNil"]
+- !private ["SH", "XCTAssertTrue"]
+- ["SH", ""]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "apiKey"]
+- !private ["SH", "assertSnapshot"]
+- !private ["SH", "baseURL"]
+- !private ["SH", "contains"]
+- !private ["SH", "defaultNetworkConfiguration"]
+- !private ["SH", "findEvents"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "mockUrlRequest"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "url"]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["16EventsVIPERTests31MockDefaultNetworkConfigurationC", "deinit"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So8NSObjectC", "DefaultValues"]
+- !private ["So8NSObjectC", "NetworkServiceConfigurator"]
+- !private ["So8NSObjectC", "Path"]
+- ["So8NSObjectC", "RequestBuilder"]
+- ["So8NSObjectC", "URLRequest"]
+- !private ["So8NSObjectC", "XCTAssertNil"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- !private ["So8NSObjectC", "assertSnapshot"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So8NSObjectC", "defaultNetworkConfiguration"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "mockUrlRequest"]
+- ["So8NSObjectC", "test_givenDefaultValues_whenPassingToGetRequestBuilder_thenRequestinitilaizedCorrectly"]
+- ["So8NSObjectC", "test_whenSettingUpAuthenticatedGetRequest_withPassingCustomAPIKey_thenAPIKeyGetsInjectedCorrectly"]
+- ["So8NSObjectC", "test_whenSettingUpAuthenticatedGetRequest_withPassingNilAPIKey_thenRequestNotCreated"]
+- !private ["So8NSObjectP", "DefaultValues"]
+- !private ["So8NSObjectP", "NetworkServiceConfigurator"]
+- !private ["So8NSObjectP", "Path"]
+- !private ["So8NSObjectP", "RequestBuilder"]
+- !private ["So8NSObjectP", "XCTAssertNil"]
+- !private ["So8NSObjectP", "XCTAssertTrue"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "assertSnapshot"]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So8NSObjectP", "defaultNetworkConfiguration"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "mockUrlRequest"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So8NSStringC", "contains"]
+- !private ["16EventsVIPERTests19NetworkRequestTestsC", "DefaultValues"]
+- !private ["16EventsVIPERTests19NetworkRequestTestsC", "NetworkServiceConfigurator"]
+- !private ["16EventsVIPERTests19NetworkRequestTestsC", "Path"]
+- ["16EventsVIPERTests19NetworkRequestTestsC", "RequestBuilder"]
+- ["16EventsVIPERTests19NetworkRequestTestsC", "URLRequest"]
+- !private ["16EventsVIPERTests19NetworkRequestTestsC", "XCTAssertNil"]
+- !private ["16EventsVIPERTests19NetworkRequestTestsC", "XCTAssertTrue"]
+- !private ["16EventsVIPERTests19NetworkRequestTestsC", "assertSnapshot"]
+- !private ["16EventsVIPERTests19NetworkRequestTestsC", "defaultNetworkConfiguration"]
+- ["16EventsVIPERTests19NetworkRequestTestsC", "init"]
+- !private ["16EventsVIPERTests19NetworkRequestTestsC", "mockUrlRequest"]
+- ["16EventsVIPERTests19NetworkRequestTestsC", "test_givenDefaultValues_whenPassingToGetRequestBuilder_thenRequestinitilaizedCorrectly"]
+- ["16EventsVIPERTests19NetworkRequestTestsC", "test_whenSettingUpAuthenticatedGetRequest_withPassingCustomAPIKey_thenAPIKeyGetsInjectedCorrectly"]
+- ["16EventsVIPERTests19NetworkRequestTestsC", "test_whenSettingUpAuthenticatedGetRequest_withPassingNilAPIKey_thenRequestNotCreated"]
+- !private ["11EventsVIPER26NetworkServiceConfigurableP", "init"]
+- !private ["11EventsVIPER26NetworkServiceConfiguratorV", "init"]
+- !private ["11EventsVIPER4PathO", "baseURL"]
+- !private ["11EventsVIPER4PathO", "findEvents"]
+- !private ["11EventsVIPER4PathO", "rawValue"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "apiKey"]
+- !private ["SY", "baseURL"]
+- !private ["SY", "findEvents"]
+- !private ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10Foundation20ReferenceConvertibleP", "url"]
+- !private ["11EventsVIPER16RequestBuildableP", "init"]
+- !private ["11EventsVIPER16RequestBuildableP", "setupAutheticatedGetRequest"]
+- !private ["11EventsVIPER14RequestBuilderC", "init"]
+- !private ["11EventsVIPER14RequestBuilderC", "setupAutheticatedGetRequest"]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["15SnapshotTesting12SnapshottingV", "dump"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "contains"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "contains"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["10Foundation10URLRequestV", "url"]
+- !private ["So11XCTActivityP", "DefaultValues"]
+- !private ["So11XCTActivityP", "NetworkServiceConfigurator"]
+- !private ["So11XCTActivityP", "Path"]
+- !private ["So11XCTActivityP", "RequestBuilder"]
+- !private ["So11XCTActivityP", "XCTAssertNil"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "assertSnapshot"]
+- !private ["So11XCTActivityP", "defaultNetworkConfiguration"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "mockUrlRequest"]
+- !private ["So17XCTWaiterDelegateP", "DefaultValues"]
+- !private ["So17XCTWaiterDelegateP", "NetworkServiceConfigurator"]
+- !private ["So17XCTWaiterDelegateP", "Path"]
+- !private ["So17XCTWaiterDelegateP", "RequestBuilder"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertNil"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "assertSnapshot"]
+- !private ["So17XCTWaiterDelegateP", "defaultNetworkConfiguration"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "mockUrlRequest"]
+- !private ["So6XCTestC", "DefaultValues"]
+- !private ["So6XCTestC", "NetworkServiceConfigurator"]
+- !private ["So6XCTestC", "Path"]
+- ["So6XCTestC", "RequestBuilder"]
+- ["So6XCTestC", "URLRequest"]
+- !private ["So6XCTestC", "XCTAssertNil"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- !private ["So6XCTestC", "assertSnapshot"]
+- !private ["So6XCTestC", "defaultNetworkConfiguration"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "init"]
+- ["So6XCTestC", "mockUrlRequest"]
+- ["So6XCTestC", "test_givenDefaultValues_whenPassingToGetRequestBuilder_thenRequestinitilaizedCorrectly"]
+- ["So6XCTestC", "test_whenSettingUpAuthenticatedGetRequest_withPassingCustomAPIKey_thenAPIKeyGetsInjectedCorrectly"]
+- ["So6XCTestC", "test_whenSettingUpAuthenticatedGetRequest_withPassingNilAPIKey_thenRequestNotCreated"]
+- !private ["So10XCTestCaseC", "DefaultValues"]
+- !private ["So10XCTestCaseC", "NetworkServiceConfigurator"]
+- !private ["So10XCTestCaseC", "Path"]
+- ["So10XCTestCaseC", "RequestBuilder"]
+- ["So10XCTestCaseC", "URLRequest"]
+- !private ["So10XCTestCaseC", "XCTAssertNil"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", ""]
+- !private ["So10XCTestCaseC", "assertSnapshot"]
+- !private ["So10XCTestCaseC", "defaultNetworkConfiguration"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "mockUrlRequest"]
+- ["So10XCTestCaseC", "test_givenDefaultValues_whenPassingToGetRequestBuilder_thenRequestinitilaizedCorrectly"]
+- ["So10XCTestCaseC", "test_whenSettingUpAuthenticatedGetRequest_withPassingCustomAPIKey_thenAPIKeyGetsInjectedCorrectly"]
+- ["So10XCTestCaseC", "test_whenSettingUpAuthenticatedGetRequest_withPassingNilAPIKey_thenRequestNotCreated"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "contains"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "contains"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DefaultValues"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkServiceConfigurator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RequestBuilder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertNil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assertSnapshot"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultNetworkConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mockUrlRequest"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "url"]
+- !private ["s16_SwiftStringViewP", "contains"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "15SnapshotTesting03AnyA17StringConvertibleP"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "11EventsVIPER13DefaultValuesO"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "16EventsVIPERTests31MockDefaultNetworkConfigurationC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "16EventsVIPERTests19NetworkRequestTestsC"
+- !private "11EventsVIPER26NetworkServiceConfigurableP"
+- !private "11EventsVIPER26NetworkServiceConfiguratorV"
+- !private "11EventsVIPER4PathO"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "11EventsVIPER16RequestBuildableP"
+- !private "11EventsVIPER14RequestBuilderC"
+- !private "ST"
+- !private "15SnapshotTesting12SnapshottingV"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/EventsVIPER.swiftmodule/x86_64.swiftmodule"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/SnapshotTesting/SnapshotTesting.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/SnapshotTesting/SnapshotTesting-umbrella.h"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/SnapshotTesting/Swift Compatibility Header/SnapshotTesting-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/SnapshotTesting/SnapshotTesting.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3594ae8d5c23884c5e2cdd7530621d86"

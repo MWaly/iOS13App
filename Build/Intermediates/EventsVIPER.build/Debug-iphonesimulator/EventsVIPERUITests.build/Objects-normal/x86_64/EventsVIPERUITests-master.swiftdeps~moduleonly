@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "718430688c208092fe3e98c6db15d91f"
+build_time: [1552589360, 958513000]
+inputs:
+  "/Users/mwaly/Desktop/Apps/EventsVIPER/EventsVIPERUITests/EventsVIPERUITests.swift": [1552330613, 0]

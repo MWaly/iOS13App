@@ -1,0 +1,12 @@
+module SnapshotTesting {
+  umbrella header "SnapshotTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module SnapshotTesting.Swift {
+  header "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/SnapshotTesting/Swift Compatibility Header/SnapshotTesting-Swift.h"
+  requires objc
+}

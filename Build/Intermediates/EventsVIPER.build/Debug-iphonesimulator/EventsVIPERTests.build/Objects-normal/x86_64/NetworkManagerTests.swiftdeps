@@ -1,0 +1,483 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkManagerTests"
+provides-nominal:
+- "16EventsVIPERTests19NetworkManagerTestsC"
+provides-member:
+- ["16EventsVIPERTests19NetworkManagerTestsC", ""]
+provides-dynamic-lookup:
+- "test_whenApplyingNetworkService_withResponseThatIsCamelCasedAndPassedArgument_thenDatareturnsParsingError"
+- "test_whenApplyingNetworkService_withResponseThatIsSnakeCased_thenDataGetsParsedCorrectly"
+depends-top-level:
+- !private "=="
+- !private "Array"
+- !private "AssignmentPrecedence"
+- !private "Dictionary"
+- "EventDTO"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "NetworkError"
+- "NetworkManager"
+- "NetworkManagerTests"
+- !private "NetworkRequestParameters"
+- "Result"
+- !private "StringLiteralType"
+- !private "URLSessionMock"
+- !private "UnicodeScalarType"
+- !private "XCTAssertFalse"
+- !private "XCTAssertTrue"
+- !private "XCTFail"
+- !private "XCTWaiter"
+- "XCTestCase"
+- !private "assertSnapshot"
+- !private "defaultNetworkConfiguration"
+depends-member:
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "NetworkError"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "NetworkManager"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "NetworkRequestParameters"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "URLSessionMock"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "XCTAssertFalse"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "XCTAssertTrue"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "XCTFail"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "XCTWaiter"]
+- ["15SnapshotTesting03AnyA17StringConvertibleP", ""]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "assertNetworkManagerResponse"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "assertSnapshot"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "defaultNetworkConfiguration"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "expectation"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "fulfill"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "init"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "init"]
+- !private ["15SnapshotTesting03AnyA17StringConvertibleP", "wait"]
+- !private ["Sa", "isEmpty"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["s7CVarArgP", "NetworkError"]
+- !private ["s7CVarArgP", "NetworkManager"]
+- !private ["s7CVarArgP", "NetworkRequestParameters"]
+- !private ["s7CVarArgP", "URLSessionMock"]
+- !private ["s7CVarArgP", "XCTAssertFalse"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- !private ["s7CVarArgP", "XCTFail"]
+- !private ["s7CVarArgP", "XCTWaiter"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "assertNetworkManagerResponse"]
+- !private ["s7CVarArgP", "assertSnapshot"]
+- !private ["s7CVarArgP", "defaultNetworkConfiguration"]
+- !private ["s7CVarArgP", "expectation"]
+- !private ["s7CVarArgP", "fulfill"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkError"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkManager"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkRequestParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSessionMock"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTFail"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTWaiter"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "assertNetworkManagerResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "assertSnapshot"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultNetworkConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "expectation"]
+- !private ["s28CustomDebugStringConvertibleP", "fulfill"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "NetworkError"]
+- !private ["s23CustomStringConvertibleP", "NetworkManager"]
+- !private ["s23CustomStringConvertibleP", "NetworkRequestParameters"]
+- !private ["s23CustomStringConvertibleP", "URLSessionMock"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertFalse"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- !private ["s23CustomStringConvertibleP", "XCTFail"]
+- !private ["s23CustomStringConvertibleP", "XCTWaiter"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "assertNetworkManagerResponse"]
+- !private ["s23CustomStringConvertibleP", "assertSnapshot"]
+- !private ["s23CustomStringConvertibleP", "defaultNetworkConfiguration"]
+- !private ["s23CustomStringConvertibleP", "expectation"]
+- !private ["s23CustomStringConvertibleP", "fulfill"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SQ", "NetworkError"]
+- !private ["SQ", "NetworkManager"]
+- !private ["SQ", "NetworkRequestParameters"]
+- !private ["SQ", "URLSessionMock"]
+- !private ["SQ", "XCTAssertFalse"]
+- !private ["SQ", "XCTAssertTrue"]
+- !private ["SQ", "XCTFail"]
+- !private ["SQ", "XCTWaiter"]
+- ["SQ", ""]
+- !private ["SQ", "apiKey"]
+- !private ["SQ", "assertNetworkManagerResponse"]
+- !private ["SQ", "assertSnapshot"]
+- !private ["SQ", "camelCased"]
+- !private ["SQ", "defaultNetworkConfiguration"]
+- !private ["SQ", "expectation"]
+- !private ["SQ", "fulfill"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "localizedDescription"]
+- !private ["SQ", "parsing"]
+- !private ["SQ", "snakeCased"]
+- !private ["SQ", "wait"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s5ErrorP", "parsing"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "NetworkError"]
+- !private ["SH", "NetworkManager"]
+- !private ["SH", "NetworkRequestParameters"]
+- !private ["SH", "URLSessionMock"]
+- !private ["SH", "XCTAssertFalse"]
+- !private ["SH", "XCTAssertTrue"]
+- !private ["SH", "XCTFail"]
+- !private ["SH", "XCTWaiter"]
+- ["SH", ""]
+- !private ["SH", "apiKey"]
+- !private ["SH", "assertNetworkManagerResponse"]
+- !private ["SH", "assertSnapshot"]
+- !private ["SH", "camelCased"]
+- !private ["SH", "defaultNetworkConfiguration"]
+- !private ["SH", "expectation"]
+- !private ["SH", "fulfill"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "localizedDescription"]
+- !private ["SH", "parsing"]
+- !private ["SH", "snakeCased"]
+- !private ["SH", "wait"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["16EventsVIPERTests31MockDefaultNetworkConfigurationC", "deinit"]
+- !private ["16EventsVIPERTests12MockFilePathO", "camelCased"]
+- !private ["16EventsVIPERTests12MockFilePathO", "snakeCased"]
+- !private ["SM", "isEmpty"]
+- ["So8NSObjectC", "EventDTO"]
+- !private ["So8NSObjectC", "NetworkError"]
+- ["So8NSObjectC", "NetworkManager"]
+- !private ["So8NSObjectC", "NetworkRequestParameters"]
+- ["So8NSObjectC", "Result"]
+- !private ["So8NSObjectC", "URLSessionMock"]
+- !private ["So8NSObjectC", "XCTAssertFalse"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- !private ["So8NSObjectC", "XCTFail"]
+- !private ["So8NSObjectC", "XCTWaiter"]
+- ["So8NSObjectC", "assertNetworkManagerResponse"]
+- !private ["So8NSObjectC", "assertSnapshot"]
+- !private ["So8NSObjectC", "defaultNetworkConfiguration"]
+- !private ["So8NSObjectC", "expectation"]
+- !private ["So8NSObjectC", "fulfill"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "test_whenApplyingNetworkService_withResponseThatIsCamelCasedAndPassedArgument_thenDatareturnsParsingError"]
+- ["So8NSObjectC", "test_whenApplyingNetworkService_withResponseThatIsSnakeCased_thenDataGetsParsedCorrectly"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So8NSObjectP", "NetworkError"]
+- !private ["So8NSObjectP", "NetworkManager"]
+- !private ["So8NSObjectP", "NetworkRequestParameters"]
+- !private ["So8NSObjectP", "URLSessionMock"]
+- !private ["So8NSObjectP", "XCTAssertFalse"]
+- !private ["So8NSObjectP", "XCTAssertTrue"]
+- !private ["So8NSObjectP", "XCTFail"]
+- !private ["So8NSObjectP", "XCTWaiter"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "assertNetworkManagerResponse"]
+- !private ["So8NSObjectP", "assertSnapshot"]
+- !private ["So8NSObjectP", "defaultNetworkConfiguration"]
+- !private ["So8NSObjectP", "expectation"]
+- !private ["So8NSObjectP", "fulfill"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "wait"]
+- !private ["11EventsVIPER12NetworkErrorO", "localizedDescription"]
+- !private ["11EventsVIPER12NetworkErrorO", "parsing"]
+- !private ["11EventsVIPER14NetworkManagerC", "init"]
+- !private ["11EventsVIPER14NetworkManagerC", "loadEvents"]
+- !private ["11EventsVIPER22NetworkManagerProtocolP", "init"]
+- !private ["11EventsVIPER22NetworkManagerProtocolP", "loadEvents"]
+- ["16EventsVIPERTests19NetworkManagerTestsC", "EventDTO"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "NetworkError"]
+- ["16EventsVIPERTests19NetworkManagerTestsC", "NetworkManager"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "NetworkRequestParameters"]
+- ["16EventsVIPERTests19NetworkManagerTestsC", "Result"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "URLSessionMock"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "XCTAssertFalse"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "XCTAssertTrue"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "XCTFail"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "XCTWaiter"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "assertNetworkManagerResponse"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "assertSnapshot"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "defaultNetworkConfiguration"]
+- !private ["16EventsVIPERTests19NetworkManagerTestsC", "expectation"]
+- ["16EventsVIPERTests19NetworkManagerTestsC", "init"]
+- ["16EventsVIPERTests19NetworkManagerTestsC", "test_whenApplyingNetworkService_withResponseThatIsCamelCasedAndPassedArgument_thenDatareturnsParsingError"]
+- ["16EventsVIPERTests19NetworkManagerTestsC", "test_whenApplyingNetworkService_withResponseThatIsSnakeCased_thenDataGetsParsedCorrectly"]
+- !private ["11EventsVIPER24NetworkRequestParametersO", "apiKey"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["SY", "apiKey"]
+- !private ["SY", "camelCased"]
+- !private ["SY", "snakeCased"]
+- ["11EventsVIPER6ResultO", "failure"]
+- ["11EventsVIPER6ResultO", "success"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["15SnapshotTesting12SnapshottingV", "dump"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["16EventsVIPERTests14URLSessionMockC", "init"]
+- !private ["So11XCTActivityP", "NetworkError"]
+- !private ["So11XCTActivityP", "NetworkManager"]
+- !private ["So11XCTActivityP", "NetworkRequestParameters"]
+- !private ["So11XCTActivityP", "URLSessionMock"]
+- !private ["So11XCTActivityP", "XCTAssertFalse"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- !private ["So11XCTActivityP", "XCTFail"]
+- !private ["So11XCTActivityP", "XCTWaiter"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "assertNetworkManagerResponse"]
+- !private ["So11XCTActivityP", "assertSnapshot"]
+- !private ["So11XCTActivityP", "defaultNetworkConfiguration"]
+- !private ["So11XCTActivityP", "expectation"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So9XCTWaiterC", "wait"]
+- !private ["So17XCTWaiterDelegateP", "NetworkError"]
+- !private ["So17XCTWaiterDelegateP", "NetworkManager"]
+- !private ["So17XCTWaiterDelegateP", "NetworkRequestParameters"]
+- !private ["So17XCTWaiterDelegateP", "URLSessionMock"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertFalse"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- !private ["So17XCTWaiterDelegateP", "XCTFail"]
+- !private ["So17XCTWaiterDelegateP", "XCTWaiter"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "assertNetworkManagerResponse"]
+- !private ["So17XCTWaiterDelegateP", "assertSnapshot"]
+- !private ["So17XCTWaiterDelegateP", "defaultNetworkConfiguration"]
+- !private ["So17XCTWaiterDelegateP", "expectation"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- ["So6XCTestC", "EventDTO"]
+- !private ["So6XCTestC", "NetworkError"]
+- ["So6XCTestC", "NetworkManager"]
+- !private ["So6XCTestC", "NetworkRequestParameters"]
+- ["So6XCTestC", "Result"]
+- !private ["So6XCTestC", "URLSessionMock"]
+- !private ["So6XCTestC", "XCTAssertFalse"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- !private ["So6XCTestC", "XCTFail"]
+- !private ["So6XCTestC", "XCTWaiter"]
+- ["So6XCTestC", "assertNetworkManagerResponse"]
+- !private ["So6XCTestC", "assertSnapshot"]
+- !private ["So6XCTestC", "defaultNetworkConfiguration"]
+- !private ["So6XCTestC", "expectation"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "init"]
+- ["So6XCTestC", "test_whenApplyingNetworkService_withResponseThatIsCamelCasedAndPassedArgument_thenDatareturnsParsingError"]
+- ["So6XCTestC", "test_whenApplyingNetworkService_withResponseThatIsSnakeCased_thenDataGetsParsedCorrectly"]
+- ["So10XCTestCaseC", "EventDTO"]
+- !private ["So10XCTestCaseC", "NetworkError"]
+- ["So10XCTestCaseC", "NetworkManager"]
+- !private ["So10XCTestCaseC", "NetworkRequestParameters"]
+- ["So10XCTestCaseC", "Result"]
+- !private ["So10XCTestCaseC", "URLSessionMock"]
+- !private ["So10XCTestCaseC", "XCTAssertFalse"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- !private ["So10XCTestCaseC", "XCTFail"]
+- !private ["So10XCTestCaseC", "XCTWaiter"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "assertNetworkManagerResponse"]
+- !private ["So10XCTestCaseC", "assertSnapshot"]
+- !private ["So10XCTestCaseC", "defaultNetworkConfiguration"]
+- !private ["So10XCTestCaseC", "expectation"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "test_whenApplyingNetworkService_withResponseThatIsCamelCasedAndPassedArgument_thenDatareturnsParsingError"]
+- ["So10XCTestCaseC", "test_whenApplyingNetworkService_withResponseThatIsSnakeCased_thenDataGetsParsedCorrectly"]
+- !private ["So17XCTestExpectationC", "fulfill"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkRequestParameters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionMock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTFail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTWaiter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assertNetworkManagerResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assertSnapshot"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultNetworkConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expectation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fulfill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "15SnapshotTesting03AnyA17StringConvertibleP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "16EventsVIPERTests31MockDefaultNetworkConfigurationC"
+- !private "16EventsVIPERTests12MockFilePathO"
+- !private "SM"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "11EventsVIPER12NetworkErrorO"
+- !private "11EventsVIPER14NetworkManagerC"
+- !private "11EventsVIPER22NetworkManagerProtocolP"
+- "16EventsVIPERTests19NetworkManagerTestsC"
+- !private "11EventsVIPER24NetworkRequestParametersO"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "11EventsVIPER6ResultO"
+- !private "ST"
+- !private "15SnapshotTesting12SnapshottingV"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "16EventsVIPERTests14URLSessionMockC"
+- "So11XCTActivityP"
+- !private "So9XCTWaiterC"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "So17XCTestExpectationC"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/EventsVIPER.swiftmodule/x86_64.swiftmodule"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/SnapshotTesting/SnapshotTesting.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/SnapshotTesting/SnapshotTesting-umbrella.h"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/SnapshotTesting/Swift Compatibility Header/SnapshotTesting-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/mwaly/Desktop/Apps/EventsVIPER/Build/Products/Debug-iphonesimulator/SnapshotTesting/SnapshotTesting.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "95112b705198b931f74206269ec28ff0"
